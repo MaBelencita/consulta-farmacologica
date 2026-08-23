@@ -51,7 +51,11 @@
           </div>
           <a id="open-page" class="primary-button" target="_blank" rel="noopener">Abrir página</a>
         </div>
-        <iframe id="pdf-viewer" title="Página del PDF seleccionada"></iframe>
+        <div id="pdf-viewer" class="pdf-viewer" aria-label="Página del PDF seleccionada">
+          <div id="pdf-loading" class="pdf-loading" hidden>Cargando página…</div>
+          <canvas id="pdf-canvas"></canvas>
+          <p id="pdf-error" class="pdf-error" hidden></p>
+        </div>
         <p class="small-note">La app muestra la página original para que confirmes siempre la dosis y el contexto clínico.</p>
       </section>
 
@@ -60,6 +64,6 @@
         <p>No busca ni consulta fuentes externas. Los resultados proceden del índice de este PDF y la dosis se revisa siempre en la página original.</p>
       </section>
     </main>
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
   </body>
 </html>

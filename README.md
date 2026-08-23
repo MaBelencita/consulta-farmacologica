@@ -22,3 +22,10 @@ Tras la instalación y la primera importación, la búsqueda y el PDF funcionan 
 ## Nota clínica
 
 La app es una herramienta de navegación del documento. Revisa siempre la página original, el contexto clínico y la versión vigente de la fuente antes de tomar decisiones de dosis.
+
+
+## Cambio importante del visor
+
+La versión actual ya no intenta mostrar el PDF dentro de un `<iframe>`, porque ese método depende del visor PDF incorporado de Android. En su lugar, usa PDF.js como **motor local de renderizado**: el PDF importado se lee desde el almacenamiento local del teléfono y la página seleccionada se dibuja directamente dentro de la app.
+
+PDF.js se precarga y queda en caché de la aplicación durante la primera apertura con conexión. Después, la visualización del PDF no necesita internet. El contenido farmacológico sigue procediendo exclusivamente del PDF que tú importaste.

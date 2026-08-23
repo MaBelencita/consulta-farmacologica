@@ -1,8 +1,17 @@
 const DB_NAME = 'consulta-farmacologica';
 const STORE = 'documento';
+
+// PDF.js is used only as the local renderer. It reads the Blob stored on this device.
+// The medical content itself comes exclusively from the user's imported PDF.
+const PDFJS_VERSION = '4.10.38';
+const PDFJS_URL = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PDFJS_VERSION}/pdf.min.mjs`;
+const PDFJS_WORKER_URL = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PDFJS_VERSION}/pdf.worker.min.mjs`;
+
 let index = [];
 let pdfBlob = null;
-let pdfUrl = null;
+let pdfDocument = null;
+let pdfJs = null;
+let activePage = 0;
 
 const setupCard = document.querySelector('#setup-card');
 const setupMessage = document.querySelector('#setup-message');
@@ -13,7 +22,9 @@ const searchInput = document.querySelector('#search-input');
 const results = document.querySelector('#results');
 const searchStatus = document.querySelector('#search-status');
 const documentName = document.querySelector('#document-name');
-const viewer = document.querySelector('#pdf-viewer');
+const canvas = document.querySelector('#pdf-canvas');
+const pdfLoading = document.querySelector('#pdf-loading');
+const pdfError = document.querySelector('#pdf-error');
 
 function openDatabase() {
   return new Promise((resolve, reject) => {
@@ -27,26 +38,53 @@ function openDatabase() {
 async function savePdf(file) {
   const database = await openDatabase();
   const transaction = database.transaction(STORE, 'readwrite');
-  transaction.objectStore(STORE).put({ name: file.name, blob: file, savedAt: Date.now() }, 'active');
-  await new Promise((resolve, reject) => { transaction.oncomplete = resolve; transaction.onerror = () => reject(transaction.error); });
+  transaction.objectStore(STORE).put(
+    { name: file.name, blob: file, savedAt: Date.now() },
+    'active'
+  );
+  await new Promise((resolve, reject) => {
+    transaction.oncomplete = resolve;
+    transaction.onerror = () => reject(transaction.error);
+  });
 }
 
 async function loadPdf() {
   const database = await openDatabase();
   const transaction = database.transaction(STORE, 'readonly');
   const request = transaction.objectStore(STORE).get('active');
-  return new Promise((resolve, reject) => { request.onsuccess = () => resolve(request.result); request.onerror = () => reject(request.error); });
+  return new Promise((resolve, reject) => {
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error);
+  });
 }
 
-function activateDocument(saved) {
+async function loadPdfJs() {
+  if (pdfJs) return pdfJs;
+  // Dynamic import lets the service worker cache the renderer after the first online launch.
+  pdfJs = await import(PDFJS_URL);
+  pdfJs.GlobalWorkerOptions.workerSrc = PDFJS_WORKER_URL;
+  return pdfJs;
+}
+
+async function activateDocument(saved) {
   pdfBlob = saved.blob;
-  if (pdfUrl) URL.revokeObjectURL(pdfUrl);
-  pdfUrl = URL.createObjectURL(pdfBlob);
   setupCard.hidden = true;
   searchArea.hidden = false;
   document.querySelector('#change-pdf').hidden = false;
   documentName.textContent = `${saved.name} · guardado solo en este teléfono`;
   searchInput.focus();
+
+  try {
+    const pdfjsLib = await loadPdfJs();
+    if (pdfDocument) {
+      try { await pdfDocument.destroy(); } catch {}
+    }
+    const data = new Uint8Array(await pdfBlob.arrayBuffer());
+    pdfDocument = await pdfjsLib.getDocument({ data }).promise;
+  } catch (error) {
+    console.error(error);
+    setupMessage.textContent = 'El PDF quedó guardado, pero no se pudo preparar el visor. Abre la app una vez con conexión para cargar el visor offline.';
+  }
 }
 
 function normalize(value) {
@@ -57,9 +95,19 @@ function renderResults() {
   const query = normalize(searchInput.value);
   results.replaceChildren();
   readerArea.hidden = true;
-  if (!query) { searchStatus.textContent = 'Escribe al menos 2 letras para buscar en tu guía.'; return; }
-  const matches = index.filter(item => normalize(item.name).includes(query)).slice(0, 12);
-  searchStatus.textContent = matches.length ? `${matches.length} resultado${matches.length === 1 ? '' : 's'} encontrado${matches.length === 1 ? '' : 's'}.` : 'No encontré ese medicamento en el índice de esta guía.';
+  if (!query) {
+    searchStatus.textContent = 'Escribe al menos 2 letras para buscar en tu guía.';
+    return;
+  }
+
+  const matches = index
+    .filter(item => normalize(item.name).includes(query))
+    .slice(0, 12);
+
+  searchStatus.textContent = matches.length
+    ? `${matches.length} resultado${matches.length === 1 ? '' : 's'} encontrado${matches.length === 1 ? '' : 's'}.`
+    : 'No encontré ese medicamento en el índice de esta guía.';
+
   for (const item of matches) {
     const li = document.createElement('li');
     const button = document.createElement('button');
@@ -68,43 +116,127 @@ function renderResults() {
     button.innerHTML = `<span><strong>${item.name}</strong><span>Página ${item.page.toLocaleString('es-EC')} del PDF</span></span><span aria-hidden="true">›</span>`;
     button.addEventListener('click', () => openMedication(item));
     li.append(button);
-    results.append(li);
+  results.append(li);
   }
 }
 
-function openMedication(item) {
-  const pageUrl = `${pdfUrl}#page=${item.page}&zoom=page-width`;
+async function renderPdfPage(pageNumber) {
+  pdfError.hidden = true;
+  pdfLoading.hidden = false;
+  canvas.hidden = true;
+
+  try {
+    if (!pdfDocument) {
+      throw new Error('PDF todavía no está listo.');
+    }
+
+    if (pageNumber < 1 || pageNumber > pdfDocument.numPages) {
+      throw new Error(`La página ${pageNumber} no existe en este PDF.`);
+    }
+
+    const page = await pdfDocument.getPage(pageNumber);
+    const containerWidth = Math.min(document.querySelector('#pdf-viewer').clientWidth - 20, 1100);
+    const unscaled = page.getViewport({ scale: 1 });
+    const cssScale = Math.max(0.5, containerWidth / unscaled.width);
+    const deviceScale = Math.min(window.devicePixelRatio || 1, 2);
+    const viewport = page.getViewport({ scale: cssScale * deviceScale });
+
+    canvas.width = Math.ceil(viewport.width);
+    canvas.height = Math.ceil(viewport.height);
+    canvas.style.width = `${Math.ceil(viewport.width / deviceScale)}px`;
+    canvas.style.height = `${Math.ceil(viewport.height / deviceScale)}px`;
+
+    const context = canvas.getContext('2d', { alpha: false });
+    context.fillStyle = '#ffffff';
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
+    await page.render({ canvasContext: context, viewport }).promise;
+
+    activePage = pageNumber;
+    canvas.hidden = false;
+    pdfLoading.hidden = true;
+  } catch (error) {
+    console.error(error);
+    pdfLoading.hidden = true;
+    pdfError.textContent = 'No se pudo mostrar esta página del PDF. El archivo sigue guardado en el teléfono.';
+    pdfError.hidden = false;
+  }
+}
+
+async function openMedication(item) {
   document.querySelector('#selected-name').textContent = item.name;
-  document.querySelector('#selected-page').textContent = `Página ${item.page.toLocaleString('es-EC')} del PDF original`;
+  document.querySelector('#selected-page').textContent =
+    `Página ${item.page.toLocaleString('es-EC')} del PDF original`;
+
   const externalLink = document.querySelector('#open-page');
-  externalLink.href = pageUrl;
+  // Kept as a convenience for devices that can open PDFs externally.
+  externalLink.href = URL.createObjectURL(pdfBlob) + `#page=${item.page}`;
   externalLink.textContent = `Abrir página ${item.page.toLocaleString('es-EC')}`;
-  viewer.src = pageUrl;
+
   readerArea.hidden = false;
   readerArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  await renderPdfPage(item.page);
 }
+
+// Re-render the selected page after orientation/size changes.
+let resizeTimer;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    if (activePage && !readerArea.hidden) renderPdfPage(activePage);
+  }, 180);
+});
 
 pdfInput.addEventListener('change', async () => {
   const file = pdfInput.files[0];
   if (!file) return;
-  if (file.type !== 'application/pdf' && !file.name.toLowerCase().endsWith('.pdf')) { setupMessage.textContent = 'Elige un archivo PDF.'; return; }
+
+  if (file.type !== 'application/pdf' && !file.name.toLowerCase().endsWith('.pdf')) {
+    setupMessage.textContent = 'Elige un archivo PDF.';
+    return;
+  }
+
   setupMessage.textContent = 'Guardando el PDF en este teléfono…';
-  try { await savePdf(file); activateDocument({ name: file.name, blob: file }); }
-  catch { setupMessage.textContent = 'No se pudo guardar el PDF. Verifica que tengas espacio disponible.'; }
+  try {
+    await savePdf(file);
+    await activateDocument({ name: file.name, blob: file });
+  } catch (error) {
+    console.error(error);
+    setupMessage.textContent = 'No se pudo guardar el PDF. Verifica que tengas espacio disponible.';
+  }
 });
+
 document.querySelector('#change-pdf').addEventListener('click', () => pdfInput.click());
-document.querySelector('#clear-search').addEventListener('click', () => { searchInput.value = ''; renderResults(); searchInput.focus(); });
+
+document.querySelector('#clear-search').addEventListener('click', () => {
+  searchInput.value = '';
+  renderResults();
+  searchInput.focus();
+});
+
 searchInput.addEventListener('input', renderResults);
 
 async function start() {
   try {
     const response = await fetch('drug-index.json');
     index = (await response.json()).entries;
+
     const saved = await loadPdf();
-    if (saved?.blob) activateDocument(saved);
-  } catch {
+    if (saved?.blob) {
+      await activateDocument(saved);
+    }
+  } catch (error) {
+    console.error(error);
     setupMessage.textContent = 'No se pudo iniciar la app. Abre la app con conexión la primera vez y vuelve a intentarlo.';
   }
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('service-worker.js');
+
+  if ('serviceWorker' in navigator) {
+    try {
+      await navigator.serviceWorker.register('service-worker.js');
+    } catch (error) {
+      console.warn('Service worker no disponible:', error);
+    }
+  }
 }
+
 start();
