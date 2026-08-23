@@ -1,11 +1,11 @@
+```javascript
 const DB_NAME = 'consulta-farmacologica';
 const STORE = 'documento';
 
-// PDF.js is used only as the local renderer. It reads the Blob stored on this device.
-// The medical content itself comes exclusively from the user's imported PDF.
+// PDF.js se usa únicamente como visor local.
+// El PDF médico permanece almacenado en este teléfono.
 const PDFJS_VERSION = '4.10.38';
 const PDFJS_URL = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PDFJS_VERSION}/pdf.min.mjs`;
-const PDFJS_WORKER_URL = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${PDFJS_VERSION}/pdf.worker.min.mjs`;
 
 let index = [];
 let pdfBlob = null;
@@ -29,7 +29,11 @@ const pdfError = document.querySelector('#pdf-error');
 function openDatabase() {
   return new Promise((resolve, reject) => {
     const request = indexedDB.open(DB_NAME, 1);
-    request.onupgradeneeded = () => request.result.createObjectStore(STORE);
+
+    request.onupgradeneeded = () => {
+      request.result.createObjectStore(STORE);
+    };
+
     request.onsuccess = () => resolve(request.result);
     request.onerror = () => reject(request.error);
   });
@@ -37,11 +41,18 @@ function openDatabase() {
 
 async function savePdf(file) {
   const database = await openDatabase();
+
   const transaction = database.transaction(STORE, 'readwrite');
+
   transaction.objectStore(STORE).put(
-    { name: file.name, blob: file, savedAt: Date.now() },
+    {
+      name: file.name,
+      blob: file,
+      savedAt: Date.now()
+    },
     'active'
   );
+
   await new Promise((resolve, reject) => {
     transaction.oncomplete = resolve;
     transaction.onerror = () => reject(transaction.error);
@@ -50,8 +61,10 @@ async function savePdf(file) {
 
 async function loadPdf() {
   const database = await openDatabase();
+
   const transaction = database.transaction(STORE, 'readonly');
   const request = transaction.objectStore(STORE).get('active');
+
   return new Promise((resolve, reject) => {
     request.onsuccess = () => resolve(request.result);
     request.onerror = () => reject(request.error);
@@ -60,43 +73,72 @@ async function loadPdf() {
 
 async function loadPdfJs() {
   if (pdfJs) return pdfJs;
-  // Dynamic import lets the service worker cache the renderer after the first online launch.
+
   pdfJs = await import(PDFJS_URL);
-  pdfJs.GlobalWorkerOptions.workerSrc = PDFJS_WORKER_URL;
+
+  // En Android evitamos depender del PDF.js worker.
+  // El PDF se procesa directamente en el navegador.
+  pdfJs.GlobalWorkerOptions.disableWorker = true;
+
   return pdfJs;
 }
 
 async function activateDocument(saved) {
   pdfBlob = saved.blob;
+
   setupCard.hidden = true;
   searchArea.hidden = false;
+
   document.querySelector('#change-pdf').hidden = false;
-  documentName.textContent = `${saved.name} · guardado solo en este teléfono`;
+
+  documentName.textContent =
+    `${saved.name} · guardado solo en este teléfono`;
+
   searchInput.focus();
 
   try {
     const pdfjsLib = await loadPdfJs();
+
     if (pdfDocument) {
-      try { await pdfDocument.destroy(); } catch {}
+      try {
+        await pdfDocument.destroy();
+      } catch {}
     }
-    const data = new Uint8Array(await pdfBlob.arrayBuffer());
-    pdfDocument = await pdfjsLib.getDocument({ data }).promise;
+
+    const data = new Uint8Array(
+      await pdfBlob.arrayBuffer()
+    );
+
+    pdfDocument = await pdfjsLib.getDocument({
+      data,
+      disableWorker: true
+    }).promise;
+
   } catch (error) {
-    console.error(error);
-    setupMessage.textContent = 'El PDF quedó guardado, pero no se pudo preparar el visor. Abre la app una vez con conexión para cargar el visor offline.';
+    console.error('Error preparando PDF:', error);
+
+    setupMessage.textContent =
+      'El PDF quedó guardado, pero no se pudo preparar el visor. Abre la app una vez con conexión y vuelve a intentarlo.';
   }
 }
 
 function normalize(value) {
-  return value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+  return value
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
 }
 
 function renderResults() {
   const query = normalize(searchInput.value);
+
   results.replaceChildren();
   readerArea.hidden = true;
+
   if (!query) {
-    searchStatus.textContent = 'Escribe al menos 2 letras para buscar en tu guía.';
+    searchStatus.textContent =
+      'Escribe al menos 2 letras para buscar en tu guía.';
     return;
   }
 
@@ -110,13 +152,24 @@ function renderResults() {
 
   for (const item of matches) {
     const li = document.createElement('li');
+
     const button = document.createElement('button');
+
     button.className = 'result-button';
     button.type = 'button';
-    button.innerHTML = `<span><strong>${item.name}</strong><span>Página ${item.page.toLocaleString('es-EC')} del PDF</span></span><span aria-hidden="true">›</span>`;
+
+    button.innerHTML = `
+      <span>
+        <strong>${item.name}</strong>
+        <span>Página ${item.page.toLocaleString('es-EC')} del PDF</span>
+      </span>
+      <span aria-hidden="true">›</span>
+    `;
+
     button.addEventListener('click', () => openMedication(item));
+
     li.append(button);
-  results.append(li);
+    results.append(li);
   }
 }
 
@@ -130,113 +183,223 @@ async function renderPdfPage(pageNumber) {
       throw new Error('PDF todavía no está listo.');
     }
 
-    if (pageNumber < 1 || pageNumber > pdfDocument.numPages) {
-      throw new Error(`La página ${pageNumber} no existe en este PDF.`);
+    if (
+      pageNumber < 1 ||
+      pageNumber > pdfDocument.numPages
+    ) {
+      throw new Error(
+        `La página ${pageNumber} no existe en este PDF.`
+      );
     }
 
     const page = await pdfDocument.getPage(pageNumber);
-    const containerWidth = Math.min(document.querySelector('#pdf-viewer').clientWidth - 20, 1100);
-    const unscaled = page.getViewport({ scale: 1 });
-    const cssScale = Math.max(0.5, containerWidth / unscaled.width);
-    const deviceScale = Math.min(window.devicePixelRatio || 1, 2);
-    const viewport = page.getViewport({ scale: cssScale * deviceScale });
+
+    const viewer = document.querySelector('#pdf-viewer');
+
+    const containerWidth = Math.min(
+      viewer.clientWidth - 20,
+      1100
+    );
+
+    const unscaled = page.getViewport({
+      scale: 1
+    });
+
+    const cssScale = Math.max(
+      0.5,
+      containerWidth / unscaled.width
+    );
+
+    const deviceScale = Math.min(
+      window.devicePixelRatio || 1,
+      2
+    );
+
+    const viewport = page.getViewport({
+      scale: cssScale * deviceScale
+    });
 
     canvas.width = Math.ceil(viewport.width);
     canvas.height = Math.ceil(viewport.height);
-    canvas.style.width = `${Math.ceil(viewport.width / deviceScale)}px`;
-    canvas.style.height = `${Math.ceil(viewport.height / deviceScale)}px`;
 
-    const context = canvas.getContext('2d', { alpha: false });
+    canvas.style.width =
+      `${Math.ceil(viewport.width / deviceScale)}px`;
+
+    canvas.style.height =
+      `${Math.ceil(viewport.height / deviceScale)}px`;
+
+    const context = canvas.getContext('2d', {
+      alpha: false
+    });
+
     context.fillStyle = '#ffffff';
-    context.fillRect(0, 0, canvas.width, canvas.height);
+    context.fillRect(
+      0,
+      0,
+      canvas.width,
+      canvas.height
+    );
 
-    await page.render({ canvasContext: context, viewport }).promise;
+    await page.render({
+      canvasContext: context,
+      viewport
+    }).promise;
 
     activePage = pageNumber;
+
     canvas.hidden = false;
     pdfLoading.hidden = true;
+
   } catch (error) {
-    console.error(error);
+    console.error('Error mostrando página PDF:', error);
+
     pdfLoading.hidden = true;
-    pdfError.textContent = 'No se pudo mostrar esta página del PDF. El archivo sigue guardado en el teléfono.';
+
+    pdfError.textContent =
+      'No se pudo mostrar esta página del PDF. El archivo sigue guardado en el teléfono.';
+
     pdfError.hidden = false;
   }
 }
 
 async function openMedication(item) {
-  document.querySelector('#selected-name').textContent = item.name;
+  document.querySelector('#selected-name').textContent =
+    item.name;
+
   document.querySelector('#selected-page').textContent =
     `Página ${item.page.toLocaleString('es-EC')} del PDF original`;
 
-  const externalLink = document.querySelector('#open-page');
-  // Kept as a convenience for devices that can open PDFs externally.
-  externalLink.href = URL.createObjectURL(pdfBlob) + `#page=${item.page}`;
-  externalLink.textContent = `Abrir página ${item.page.toLocaleString('es-EC')}`;
+  const externalLink =
+    document.querySelector('#open-page');
+
+  // Permite abrir el PDF externamente en dispositivos
+  // que tengan un visor PDF compatible.
+  if (pdfBlob) {
+    const pdfUrl = URL.createObjectURL(pdfBlob);
+
+    externalLink.href =
+      `${pdfUrl}#page=${item.page}`;
+
+    externalLink.textContent =
+      `Abrir página ${item.page.toLocaleString('es-EC')}`;
+  }
 
   readerArea.hidden = false;
-  readerArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+  readerArea.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+
   await renderPdfPage(item.page);
 }
 
-// Re-render the selected page after orientation/size changes.
 let resizeTimer;
+
 window.addEventListener('resize', () => {
   clearTimeout(resizeTimer);
+
   resizeTimer = setTimeout(() => {
-    if (activePage && !readerArea.hidden) renderPdfPage(activePage);
+    if (
+      activePage &&
+      !readerArea.hidden
+    ) {
+      renderPdfPage(activePage);
+    }
   }, 180);
 });
 
 pdfInput.addEventListener('change', async () => {
   const file = pdfInput.files[0];
+
   if (!file) return;
 
-  if (file.type !== 'application/pdf' && !file.name.toLowerCase().endsWith('.pdf')) {
-    setupMessage.textContent = 'Elige un archivo PDF.';
+  if (
+    file.type !== 'application/pdf' &&
+    !file.name.toLowerCase().endsWith('.pdf')
+  ) {
+    setupMessage.textContent =
+      'Elige un archivo PDF.';
+
     return;
   }
 
-  setupMessage.textContent = 'Guardando el PDF en este teléfono…';
+  setupMessage.textContent =
+    'Guardando el PDF en este teléfono…';
+
   try {
     await savePdf(file);
-    await activateDocument({ name: file.name, blob: file });
+
+    await activateDocument({
+      name: file.name,
+      blob: file
+    });
+
   } catch (error) {
-    console.error(error);
-    setupMessage.textContent = 'No se pudo guardar el PDF. Verifica que tengas espacio disponible.';
+    console.error('Error guardando PDF:', error);
+
+    setupMessage.textContent =
+      'No se pudo guardar el PDF. Verifica que tengas espacio disponible.';
   }
 });
 
-document.querySelector('#change-pdf').addEventListener('click', () => pdfInput.click());
+document
+  .querySelector('#change-pdf')
+  .addEventListener('click', () => {
+    pdfInput.click();
+  });
 
-document.querySelector('#clear-search').addEventListener('click', () => {
-  searchInput.value = '';
-  renderResults();
-  searchInput.focus();
-});
+document
+  .querySelector('#clear-search')
+  .addEventListener('click', () => {
+    searchInput.value = '';
+    renderResults();
+    searchInput.focus();
+  });
 
-searchInput.addEventListener('input', renderResults);
+searchInput.addEventListener(
+  'input',
+  renderResults
+);
 
 async function start() {
   try {
-    const response = await fetch('drug-index.json');
-    index = (await response.json()).entries;
+    const response =
+      await fetch('drug-index.json');
 
-    const saved = await loadPdf();
+    index =
+      (await response.json()).entries;
+
+    const saved =
+      await loadPdf();
+
     if (saved?.blob) {
       await activateDocument(saved);
     }
+
   } catch (error) {
-    console.error(error);
-    setupMessage.textContent = 'No se pudo iniciar la app. Abre la app con conexión la primera vez y vuelve a intentarlo.';
+    console.error(
+      'Error iniciando aplicación:',
+      error
+    );
+
+    setupMessage.textContent =
+      'No se pudo iniciar la app. Abre la app con conexión la primera vez y vuelve a intentarlo.';
   }
 
   if ('serviceWorker' in navigator) {
     try {
-      await navigator.serviceWorker.register('service-worker.js');
+      await navigator.serviceWorker.register(
+        'service-worker.js'
+      );
     } catch (error) {
-      console.warn('Service worker no disponible:', error);
+      console.warn(
+        'Service worker no disponible:',
+        error
+      );
     }
   }
 }
 
 start();
+```
