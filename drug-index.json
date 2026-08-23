@@ -1,0 +1,4062 @@
+{
+  "document": "Pediatric drug monographs from Micromedex - 2026.pdf",
+  "pageCount": 9936,
+  "entries": [
+    {
+      "name": "Abacavir",
+      "page": 2
+    },
+    {
+      "name": "Abacavir_Dolutegravir_Lamivudine",
+      "page": 17
+    },
+    {
+      "name": "Abacavir_Lamivudine",
+      "page": 46
+    },
+    {
+      "name": "Abametapir",
+      "page": 74
+    },
+    {
+      "name": "Abatacept",
+      "page": 78
+    },
+    {
+      "name": "Abciximab",
+      "page": 89
+    },
+    {
+      "name": "AbobotulinumtoxinA",
+      "page": 90
+    },
+    {
+      "name": "Abrocitinib",
+      "page": 96
+    },
+    {
+      "name": "Acetaminophen",
+      "page": 105
+    },
+    {
+      "name": "Acetaminophen_Codeine",
+      "page": 117
+    },
+    {
+      "name": "AcetaZOLAMIDE",
+      "page": 131
+    },
+    {
+      "name": "Acetylcysteine",
+      "page": 143
+    },
+    {
+      "name": "Acyclovir",
+      "page": 163
+    },
+    {
+      "name": "Adalimumab",
+      "page": 173
+    },
+    {
+      "name": "Adalimumab-aacf",
+      "page": 197
+    },
+    {
+      "name": "Adalimumab-aaty",
+      "page": 206
+    },
+    {
+      "name": "Adalimumab-adaz",
+      "page": 220
+    },
+    {
+      "name": "Adalimumab-adbm",
+      "page": 232
+    },
+    {
+      "name": "Adalimumab-afzb",
+      "page": 243
+    },
+    {
+      "name": "Adalimumab-aqvh",
+      "page": 251
+    },
+    {
+      "name": "Adalimumab-atto",
+      "page": 259
+    },
+    {
+      "name": "Adalimumab-bwwd",
+      "page": 273
+    },
+    {
+      "name": "Adalimumab-fkjp",
+      "page": 283
+    },
+    {
+      "name": "Adalimumab-ryvk",
+      "page": 291
+    },
+    {
+      "name": "ADAMTS13, recombinant-krhn",
+      "page": 302
+    },
+    {
+      "name": "Adenosine",
+      "page": 307
+    },
+    {
+      "name": "Aflibercept",
+      "page": 313
+    },
+    {
+      "name": "Agalsidase Beta",
+      "page": 317
+    },
+    {
+      "name": "Albendazole",
+      "page": 322
+    },
+    {
+      "name": "Albuterol",
+      "page": 342
+    },
+    {
+      "name": "Albuterol_Ipratropium",
+      "page": 355
+    },
+    {
+      "name": "Alclometasone",
+      "page": 360
+    },
+    {
+      "name": "Alendronate",
+      "page": 364
+    },
+    {
+      "name": "Alglucosidase Alfa",
+      "page": 371
+    },
+    {
+      "name": "Alirocumab",
+      "page": 379
+    },
+    {
+      "name": "Aliskiren",
+      "page": 384
+    },
+    {
+      "name": "Allopurinol",
+      "page": 388
+    },
+    {
+      "name": "Almotriptan",
+      "page": 396
+    },
+    {
+      "name": "Alprostadil",
+      "page": 402
+    },
+    {
+      "name": "Alteplase",
+      "page": 408
+    },
+    {
+      "name": "Amantadine",
+      "page": 420
+    },
+    {
+      "name": "Ambrisentan",
+      "page": 428
+    },
+    {
+      "name": "Amcinonide",
+      "page": 435
+    },
+    {
+      "name": "Amifampridine",
+      "page": 439
+    },
+    {
+      "name": "Amikacin",
+      "page": 447
+    },
+    {
+      "name": "Aminocaproic Acid",
+      "page": 463
+    },
+    {
+      "name": "Aminophylline",
+      "page": 473
+    },
+    {
+      "name": "Amiodarone",
+      "page": 479
+    },
+    {
+      "name": "Amitriptyline",
+      "page": 496
+    },
+    {
+      "name": "AmLODIPine",
+      "page": 511
+    },
+    {
+      "name": "Amlodipine Besylate_Atorvastatin Calcium",
+      "page": 519
+    },
+    {
+      "name": "Amoxicillin",
+      "page": 526
+    },
+    {
+      "name": "Amoxicillin_Clavulanate",
+      "page": 552
+    },
+    {
+      "name": "Amphetamine",
+      "page": 568
+    },
+    {
+      "name": "Amphotericin B",
+      "page": 578
+    },
+    {
+      "name": "Amphotericin B Lipid Complex",
+      "page": 600
+    },
+    {
+      "name": "Amphotericin B Liposome",
+      "page": 615
+    },
+    {
+      "name": "Ampicillin",
+      "page": 638
+    },
+    {
+      "name": "Ampicillin_Sulbactam",
+      "page": 659
+    },
+    {
+      "name": "Anacaulase-bcdb",
+      "page": 674
+    },
+    {
+      "name": "Anakinra",
+      "page": 681
+    },
+    {
+      "name": "Anidulafungin",
+      "page": 697
+    },
+    {
+      "name": "Ansuvimab-zykl",
+      "page": 714
+    },
+    {
+      "name": "Anthrax Immune Globulin",
+      "page": 720
+    },
+    {
+      "name": "Anti-Inhibitor Coagulant Complex",
+      "page": 799
+    },
+    {
+      "name": "Apixaban",
+      "page": 810
+    },
+    {
+      "name": "Apremilast",
+      "page": 832
+    },
+    {
+      "name": "Aprepitant",
+      "page": 839
+    },
+    {
+      "name": "AquADEKs",
+      "page": 850
+    },
+    {
+      "name": "Argatroban",
+      "page": 856
+    },
+    {
+      "name": "Arginine",
+      "page": 865
+    },
+    {
+      "name": "Arimoclomol",
+      "page": 873
+    },
+    {
+      "name": "ARIPiprazole",
+      "page": 878
+    },
+    {
+      "name": "Artemether_Lumefantrine",
+      "page": 893
+    },
+    {
+      "name": "Artesunate",
+      "page": 900
+    },
+    {
+      "name": "Articaine",
+      "page": 907
+    },
+    {
+      "name": "Articaine Hydrochloride_EPINEPHrine",
+      "page": 911
+    },
+    {
+      "name": "Ascorbic Acid",
+      "page": 917
+    },
+    {
+      "name": "Asenapine",
+      "page": 924
+    },
+    {
+      "name": "Asfotase Alfa",
+      "page": 930
+    },
+    {
+      "name": "Aspirin",
+      "page": 938
+    },
+    {
+      "name": "Atazanavir",
+      "page": 945
+    },
+    {
+      "name": "Atazanavir_Cobicistat",
+      "page": 969
+    },
+    {
+      "name": "Atenolol",
+      "page": 984
+    },
+    {
+      "name": "Atidarsagene Autotemcel",
+      "page": 992
+    },
+    {
+      "name": "Atoltivimab_Maftivimab_Odesivimab-ebgn",
+      "page": 999
+    },
+    {
+      "name": "Atomoxetine",
+      "page": 1007
+    },
+    {
+      "name": "Atorvastatin",
+      "page": 1014
+    },
+    {
+      "name": "Atovaquone",
+      "page": 1025
+    },
+    {
+      "name": "Atovaquone_Proguanil",
+      "page": 1033
+    },
+    {
+      "name": "Atracurium",
+      "page": 1039
+    },
+    {
+      "name": "Atropine",
+      "page": 1048
+    },
+    {
+      "name": "Avalglucosidase alfa-ngpt",
+      "page": 1063
+    },
+    {
+      "name": "Avatrombopag",
+      "page": 1072
+    },
+    {
+      "name": "AzaTHIOprine",
+      "page": 1080
+    },
+    {
+      "name": "Azelaic Acid",
+      "page": 1105
+    },
+    {
+      "name": "Azelastine",
+      "page": 1108
+    },
+    {
+      "name": "Azelastine_Fluticasone",
+      "page": 1117
+    },
+    {
+      "name": "Azithromycin",
+      "page": 1123
+    },
+    {
+      "name": "Aztreonam",
+      "page": 1150
+    },
+    {
+      "name": "Baclofen",
+      "page": 1164
+    },
+    {
+      "name": "Baloxavir Marboxil",
+      "page": 1177
+    },
+    {
+      "name": "Balsalazide",
+      "page": 1186
+    },
+    {
+      "name": "Bamlanivimab",
+      "page": 1193
+    },
+    {
+      "name": "Baricitinib",
+      "page": 1206
+    },
+    {
+      "name": "Basiliximab",
+      "page": 1215
+    },
+    {
+      "name": "Beclomethasone",
+      "page": 1221
+    },
+    {
+      "name": "Bedaquiline",
+      "page": 1234
+    },
+    {
+      "name": "Belimumab",
+      "page": 1249
+    },
+    {
+      "name": "Belumosudil",
+      "page": 1258
+    },
+    {
+      "name": "Benazepril",
+      "page": 1262
+    },
+    {
+      "name": "Benralizumab",
+      "page": 1267
+    },
+    {
+      "name": "Benznidazole",
+      "page": 1272
+    },
+    {
+      "name": "Benzoyl Peroxide",
+      "page": 1276
+    },
+    {
+      "name": "Benzyl Alcohol",
+      "page": 1279
+    },
+    {
+      "name": "Berdazimer",
+      "page": 1283
+    },
+    {
+      "name": "Beremagene Geperpavec-svdt",
+      "page": 1286
+    },
+    {
+      "name": "Berotralstat",
+      "page": 1292
+    },
+    {
+      "name": "Betamethasone",
+      "page": 1299
+    },
+    {
+      "name": "Bethanechol",
+      "page": 1317
+    },
+    {
+      "name": "Bevacizumab",
+      "page": 1322
+    },
+    {
+      "name": "Bezlotoxumab",
+      "page": 1332
+    },
+    {
+      "name": "Bictegravir_Emtricitabine_Tenofovir Alafenamide",
+      "page": 1336
+    },
+    {
+      "name": "Birch Triterpenes",
+      "page": 1355
+    },
+    {
+      "name": "Bisacodyl",
+      "page": 1358
+    },
+    {
+      "name": "Bismuth Subsalicylate",
+      "page": 1362
+    },
+    {
+      "name": "Bivalirudin",
+      "page": 1368
+    },
+    {
+      "name": "Bosentan",
+      "page": 1376
+    },
+    {
+      "name": "Brensocatib",
+      "page": 1388
+    },
+    {
+      "name": "Brexanolone",
+      "page": 1393
+    },
+    {
+      "name": "Brexpiprazole",
+      "page": 1399
+    },
+    {
+      "name": "Brincidofovir",
+      "page": 1408
+    },
+    {
+      "name": "Brivaracetam",
+      "page": 1415
+    },
+    {
+      "name": "Budesonide",
+      "page": 1422
+    },
+    {
+      "name": "Budesonide_Formoterol",
+      "page": 1441
+    },
+    {
+      "name": "Bumetanide",
+      "page": 1448
+    },
+    {
+      "name": "BUPivacaine",
+      "page": 1455
+    },
+    {
+      "name": "BUPivacaine Liposome",
+      "page": 1474
+    },
+    {
+      "name": "Buprenorphine",
+      "page": 1481
+    },
+    {
+      "name": "BuPROPion",
+      "page": 1494
+    },
+    {
+      "name": "Burosumab-twza",
+      "page": 1504
+    },
+    {
+      "name": "Butenafine",
+      "page": 1512
+    },
+    {
+      "name": "C1 Esterase Inhibitor, Human",
+      "page": 1514
+    },
+    {
+      "name": "C1 Esterase Inhibitor, Recombinant",
+      "page": 1521
+    },
+    {
+      "name": "Cabotegravir",
+      "page": 1524
+    },
+    {
+      "name": "Cabotegravir_Rilpivirine",
+      "page": 1550
+    },
+    {
+      "name": "Calcipotriene",
+      "page": 1576
+    },
+    {
+      "name": "Calcipotriene_Betamethasone Dipropionate",
+      "page": 1580
+    },
+    {
+      "name": "Calcitriol",
+      "page": 1585
+    },
+    {
+      "name": "Calcium - Oral",
+      "page": 1596
+    },
+    {
+      "name": "Calcium Chloride",
+      "page": 1600
+    },
+    {
+      "name": "Calcium Gluconate",
+      "page": 1606
+    },
+    {
+      "name": "Calcium Oxybate_Magnesium Oxybate_Potassium Oxybate_Sodium Oxybate",
+      "page": 1612
+    },
+    {
+      "name": "Canagliflozin",
+      "page": 1620
+    },
+    {
+      "name": "Canagliflozin_MetFORMIN",
+      "page": 1627
+    },
+    {
+      "name": "Canakinumab",
+      "page": 1640
+    },
+    {
+      "name": "Candesartan",
+      "page": 1651
+    },
+    {
+      "name": "Cannabidiol",
+      "page": 1657
+    },
+    {
+      "name": "Cantharidin",
+      "page": 1664
+    },
+    {
+      "name": "Caplacizumab-yhdp",
+      "page": 1667
+    },
+    {
+      "name": "Captopril",
+      "page": 1673
+    },
+    {
+      "name": "CarBAMazepine",
+      "page": 1682
+    },
+    {
+      "name": "Carglumic Acid",
+      "page": 1702
+    },
+    {
+      "name": "Carvedilol",
+      "page": 1708
+    },
+    {
+      "name": "Casimersen",
+      "page": 1715
+    },
+    {
+      "name": "Casirivimab_Imdevimab",
+      "page": 1720
+    },
+    {
+      "name": "Caspofungin",
+      "page": 1731
+    },
+    {
+      "name": "Cefadroxil",
+      "page": 1751
+    },
+    {
+      "name": "CeFAZolin",
+      "page": 1756
+    },
+    {
+      "name": "Cefdinir",
+      "page": 1768
+    },
+    {
+      "name": "Cefepime",
+      "page": 1776
+    },
+    {
+      "name": "Cefiderocol",
+      "page": 1798
+    },
+    {
+      "name": "Cefixime",
+      "page": 1810
+    },
+    {
+      "name": "Cefotaxime",
+      "page": 1819
+    },
+    {
+      "name": "CefoTEtan",
+      "page": 1830
+    },
+    {
+      "name": "CefOXitin",
+      "page": 1835
+    },
+    {
+      "name": "Cefpodoxime",
+      "page": 1841
+    },
+    {
+      "name": "Cefprozil",
+      "page": 1848
+    },
+    {
+      "name": "Ceftaroline Fosamil",
+      "page": 1855
+    },
+    {
+      "name": "CefTAZidime",
+      "page": 1865
+    },
+    {
+      "name": "cefTAZidime_Avibactam",
+      "page": 1889
+    },
+    {
+      "name": "Ceftibuten",
+      "page": 1903
+    },
+    {
+      "name": "Ceftobiprole Medocaril Sodium",
+      "page": 1908
+    },
+    {
+      "name": "Ceftolozane_Tazobactam",
+      "page": 1916
+    },
+    {
+      "name": "CefTRIAXone",
+      "page": 1929
+    },
+    {
+      "name": "Cefuroxime",
+      "page": 1958
+    },
+    {
+      "name": "Cenegermin-bkbj",
+      "page": 1972
+    },
+    {
+      "name": "Cephalexin",
+      "page": 1980
+    },
+    {
+      "name": "Cerliponase Alfa",
+      "page": 1988
+    },
+    {
+      "name": "Certolizumab Pegol",
+      "page": 1995
+    },
+    {
+      "name": "Cetirizine",
+      "page": 2003
+    },
+    {
+      "name": "Chikungunya Vaccine, Recombinant",
+      "page": 2012
+    },
+    {
+      "name": "Chloral hydrate",
+      "page": 2015
+    },
+    {
+      "name": "Chloramphenicol",
+      "page": 2019
+    },
+    {
+      "name": "Chloroquine Phosphate",
+      "page": 2034
+    },
+    {
+      "name": "Chlorothiazide",
+      "page": 2043
+    },
+    {
+      "name": "ChlorproMAZINE",
+      "page": 2051
+    },
+    {
+      "name": "Cholera Vaccine, Live",
+      "page": 2062
+    },
+    {
+      "name": "Cholic Acid",
+      "page": 2065
+    },
+    {
+      "name": "Ciclesonide",
+      "page": 2072
+    },
+    {
+      "name": "Ciclopirox",
+      "page": 2081
+    },
+    {
+      "name": "Cidofovir",
+      "page": 2084
+    },
+    {
+      "name": "Cimetidine",
+      "page": 2092
+    },
+    {
+      "name": "Ciprofloxacin",
+      "page": 2100
+    },
+    {
+      "name": "Ciprofloxacin_Dexamethasone",
+      "page": 2137
+    },
+    {
+      "name": "Ciprofloxacin_Fluocinolone",
+      "page": 2141
+    },
+    {
+      "name": "Ciprofloxacin_Hydrocortisone",
+      "page": 2144
+    },
+    {
+      "name": "Cisatracurium",
+      "page": 2147
+    },
+    {
+      "name": "Citalopram",
+      "page": 2156
+    },
+    {
+      "name": "Citric Acid",
+      "page": 2164
+    },
+    {
+      "name": "Citrulline",
+      "page": 2169
+    },
+    {
+      "name": "Clarithromycin",
+      "page": 2172
+    },
+    {
+      "name": "Clascoterone",
+      "page": 2190
+    },
+    {
+      "name": "Clesrovimab-cfor",
+      "page": 2194
+    },
+    {
+      "name": "Clindamycin",
+      "page": 2199
+    },
+    {
+      "name": "CloBAZam",
+      "page": 2220
+    },
+    {
+      "name": "Clobetasol",
+      "page": 2231
+    },
+    {
+      "name": "Clofazimine",
+      "page": 2237
+    },
+    {
+      "name": "ClonazePAM",
+      "page": 2247
+    },
+    {
+      "name": "CloNIDine",
+      "page": 2256
+    },
+    {
+      "name": "Clopidogrel",
+      "page": 2272
+    },
+    {
+      "name": "Clotrimazole",
+      "page": 2280
+    },
+    {
+      "name": "CloZAPine",
+      "page": 2286
+    },
+    {
+      "name": "Coagulation Factor IX Recombinant, GlycoPEGylated",
+      "page": 2301
+    },
+    {
+      "name": "Coagulation Factor VIIa-jncw",
+      "page": 2305
+    },
+    {
+      "name": "Cobicistat",
+      "page": 2310
+    },
+    {
+      "name": "Colesevelam",
+      "page": 2331
+    },
+    {
+      "name": "Colistin",
+      "page": 2335
+    },
+    {
+      "name": "Colistin_Hydrocortisone_Neomycin_Thonzonium",
+      "page": 2349
+    },
+    {
+      "name": "Concizumab-mtci",
+      "page": 2353
+    },
+    {
+      "name": "Corticotropin, Repository",
+      "page": 2361
+    },
+    {
+      "name": "Cosyntropin",
+      "page": 2370
+    },
+    {
+      "name": "Crinecerfont",
+      "page": 2374
+    },
+    {
+      "name": "Crisaborole",
+      "page": 2380
+    },
+    {
+      "name": "Crizanlizumab-tmca",
+      "page": 2383
+    },
+    {
+      "name": "Cromolyn",
+      "page": 2388
+    },
+    {
+      "name": "Crotalidae Polyvalent Immune Fab",
+      "page": 2403
+    },
+    {
+      "name": "Crotamiton",
+      "page": 2410
+    },
+    {
+      "name": "Crovalimab-akkz",
+      "page": 2413
+    },
+    {
+      "name": "Cyanocobalamin",
+      "page": 2421
+    },
+    {
+      "name": "CycloPHOSphamide",
+      "page": 2431
+    },
+    {
+      "name": "CycloSERINE",
+      "page": 2448
+    },
+    {
+      "name": "CycloSPORINE",
+      "page": 2454
+    },
+    {
+      "name": "Cyproheptadine",
+      "page": 2481
+    },
+    {
+      "name": "Cysteamine",
+      "page": 2486
+    },
+    {
+      "name": "Cysteine Hydrochloride",
+      "page": 2495
+    },
+    {
+      "name": "Dabigatran Etexilate",
+      "page": 2501
+    },
+    {
+      "name": "Dalbavancin",
+      "page": 2518
+    },
+    {
+      "name": "Dalteparin",
+      "page": 2525
+    },
+    {
+      "name": "Dantrolene",
+      "page": 2533
+    },
+    {
+      "name": "Dapagliflozin",
+      "page": 2544
+    },
+    {
+      "name": "Dapagliflozin_MetFORMIN Hydrochloride",
+      "page": 2550
+    },
+    {
+      "name": "Dapsone",
+      "page": 2560
+    },
+    {
+      "name": "DAPTOmycin",
+      "page": 2569
+    },
+    {
+      "name": "Darbepoetin Alfa",
+      "page": 2581
+    },
+    {
+      "name": "Darunavir",
+      "page": 2589
+    },
+    {
+      "name": "Darunavir_Cobicistat",
+      "page": 2617
+    },
+    {
+      "name": "Darunavir_Cobicistat_Emtricitabine_Tenofovir Alafenamide",
+      "page": 2646
+    },
+    {
+      "name": "Dasiglucagon",
+      "page": 2678
+    },
+    {
+      "name": "Deferasirox",
+      "page": 2682
+    },
+    {
+      "name": "Deferiprone",
+      "page": 2696
+    },
+    {
+      "name": "Deferoxamine",
+      "page": 2704
+    },
+    {
+      "name": "Defibrotide",
+      "page": 2711
+    },
+    {
+      "name": "Deflazacort",
+      "page": 2717
+    },
+    {
+      "name": "Delamanid",
+      "page": 2726
+    },
+    {
+      "name": "Delandistrogene moxeparvovec-rokl",
+      "page": 2739
+    },
+    {
+      "name": "Dengue Tetravalent Vaccine, Live",
+      "page": 2749
+    },
+    {
+      "name": "Dermatophagoides Farinae Extract_Dermatophagoides Pteronyssinus Extract",
+      "page": 2754
+    },
+    {
+      "name": "Desipramine",
+      "page": 2764
+    },
+    {
+      "name": "Desloratadine",
+      "page": 2773
+    },
+    {
+      "name": "Desloratadine_Pseudoephedrine",
+      "page": 2778
+    },
+    {
+      "name": "Desmopressin",
+      "page": 2783
+    },
+    {
+      "name": "Desonide",
+      "page": 2800
+    },
+    {
+      "name": "Desoximetasone",
+      "page": 2805
+    },
+    {
+      "name": "DexAMETHasone",
+      "page": 2810
+    },
+    {
+      "name": "Dexlansoprazole",
+      "page": 2842
+    },
+    {
+      "name": "DexmedeTOMIDine",
+      "page": 2848
+    },
+    {
+      "name": "Dexmethylphenidate",
+      "page": 2865
+    },
+    {
+      "name": "Dextroamphetamine",
+      "page": 2875
+    },
+    {
+      "name": "Dextroamphetamine_Amphetamine",
+      "page": 2886
+    },
+    {
+      "name": "Dextrose",
+      "page": 2898
+    },
+    {
+      "name": "DiazePAM",
+      "page": 2904
+    },
+    {
+      "name": "Diazoxide",
+      "page": 2926
+    },
+    {
+      "name": "Diclofenac",
+      "page": 2937
+    },
+    {
+      "name": "Dicloxacillin",
+      "page": 2950
+    },
+    {
+      "name": "Didanosine",
+      "page": 2954
+    },
+    {
+      "name": "Digoxin",
+      "page": 2961
+    },
+    {
+      "name": "DilTIAZem",
+      "page": 2975
+    },
+    {
+      "name": "DiphenhydrAMINE",
+      "page": 2985
+    },
+    {
+      "name": "Diphenoxylate_Atropine",
+      "page": 2997
+    },
+    {
+      "name": "Dipyridamole",
+      "page": 3002
+    },
+    {
+      "name": "Disopyramide",
+      "page": 3011
+    },
+    {
+      "name": "DOBUTamine",
+      "page": 3017
+    },
+    {
+      "name": "Docusate",
+      "page": 3027
+    },
+    {
+      "name": "Dolasetron",
+      "page": 3031
+    },
+    {
+      "name": "Dolutegravir",
+      "page": 3042
+    },
+    {
+      "name": "Dolutegravir_LamiVUDine",
+      "page": 3071
+    },
+    {
+      "name": "Donidalorsen",
+      "page": 3092
+    },
+    {
+      "name": "DOPamine",
+      "page": 3097
+    },
+    {
+      "name": "Doravirine",
+      "page": 3108
+    },
+    {
+      "name": "Doravirine_Lamivudine_Tenofovir Disoproxil Fumarate",
+      "page": 3133
+    },
+    {
+      "name": "Dornase alfa",
+      "page": 3164
+    },
+    {
+      "name": "Doxecitine_Doxribtimine",
+      "page": 3170
+    },
+    {
+      "name": "Doxycycline",
+      "page": 3181
+    },
+    {
+      "name": "DT_Td Vaccine",
+      "page": 3215
+    },
+    {
+      "name": "DTaP Vaccine",
+      "page": 3222
+    },
+    {
+      "name": "DTaP-HepB-IPV Combination Vaccine",
+      "page": 3237
+    },
+    {
+      "name": "DTaP-IPV Combination Vaccine",
+      "page": 3243
+    },
+    {
+      "name": "DTaP-IPV_Hib Combination Vaccine",
+      "page": 3249
+    },
+    {
+      "name": "DTaP, Poliovirus, Haemophilus B, Hepatitis B Vaccine",
+      "page": 3229
+    },
+    {
+      "name": "Dulaglutide",
+      "page": 3255
+    },
+    {
+      "name": "DULoxetine",
+      "page": 3262
+    },
+    {
+      "name": "Dupilumab",
+      "page": 3272
+    },
+    {
+      "name": "Ebola Zaire Vaccine, Live",
+      "page": 3283
+    },
+    {
+      "name": "Ecallantide",
+      "page": 3287
+    },
+    {
+      "name": "Econazole",
+      "page": 3290
+    },
+    {
+      "name": "Eculizumab",
+      "page": 3292
+    },
+    {
+      "name": "Eculizumab-aagh",
+      "page": 3304
+    },
+    {
+      "name": "Eculizumab-aeeb",
+      "page": 3313
+    },
+    {
+      "name": "Efavirenz",
+      "page": 3322
+    },
+    {
+      "name": "Efavirenz_Emtricitabine_Tenofovir Disoproxil Fumarate",
+      "page": 3346
+    },
+    {
+      "name": "Efavirenz_Lamivudine_Tenofovir Disoproxil Fumarate",
+      "page": 3370
+    },
+    {
+      "name": "Efinaconazole",
+      "page": 3391
+    },
+    {
+      "name": "Eladocagene Exuparvovec-tneq",
+      "page": 3394
+    },
+    {
+      "name": "Elamipretide",
+      "page": 3400
+    },
+    {
+      "name": "Elapegademase-lvlr",
+      "page": 3405
+    },
+    {
+      "name": "Elbasvir_Grazoprevir",
+      "page": 3409
+    },
+    {
+      "name": "Electrolytes_Minerals",
+      "page": 3423
+    },
+    {
+      "name": "Eletriptan",
+      "page": 3425
+    },
+    {
+      "name": "Elexacaftor_tezacaftor_ivacaftor; Ivacaftor",
+      "page": 3430
+    },
+    {
+      "name": "Elivaldogene Autotemcel",
+      "page": 3446
+    },
+    {
+      "name": "Elosulfase Alfa",
+      "page": 3454
+    },
+    {
+      "name": "Eltrombopag",
+      "page": 3458
+    },
+    {
+      "name": "Elvitegravir_Cobicistat_Emtricitabine_Tenofovir Alafenamide",
+      "page": 3471
+    },
+    {
+      "name": "Elvitegravir_Cobicistat_Emtricitabine_Tenofovir Disoproxil Fumarate",
+      "page": 3493
+    },
+    {
+      "name": "Emapalumab-lzsg",
+      "page": 3500
+    },
+    {
+      "name": "Emicizumab-kxwh",
+      "page": 3510
+    },
+    {
+      "name": "Empagliflozin",
+      "page": 3515
+    },
+    {
+      "name": "Empagliflozin_MetFORMIN Hydrochloride",
+      "page": 3521
+    },
+    {
+      "name": "Emtricitabine",
+      "page": 3532
+    },
+    {
+      "name": "Emtricitabine_Rilpivirine_Tenofovir Alafenamide",
+      "page": 3560
+    },
+    {
+      "name": "Emtricitabine_Rilpivirine_Tenofovir Disoproxil Fumarate",
+      "page": 3580
+    },
+    {
+      "name": "Emtricitabine_Tenofovir Alafenamide",
+      "page": 3603
+    },
+    {
+      "name": "Emtricitabine_Tenofovir Disoproxil Fumarate",
+      "page": 3632
+    },
+    {
+      "name": "Enalapril maleate",
+      "page": 3661
+    },
+    {
+      "name": "Enalaprilat",
+      "page": 3670
+    },
+    {
+      "name": "Enfuvirtide",
+      "page": 3675
+    },
+    {
+      "name": "Enoxaparin",
+      "page": 3680
+    },
+    {
+      "name": "Entecavir",
+      "page": 3695
+    },
+    {
+      "name": "Epoetin alfa",
+      "page": 3727
+    },
+    {
+      "name": "Epoetin Alfa-epbx",
+      "page": 3736
+    },
+    {
+      "name": "Epoprostenol",
+      "page": 3743
+    },
+    {
+      "name": "Eravacycline",
+      "page": 3753
+    },
+    {
+      "name": "Ertapenem",
+      "page": 3762
+    },
+    {
+      "name": "Erythromycin",
+      "page": 3772
+    },
+    {
+      "name": "Escitalopram",
+      "page": 3779
+    },
+    {
+      "name": "Eslicarbazepine",
+      "page": 3788
+    },
+    {
+      "name": "Esmolol",
+      "page": 3793
+    },
+    {
+      "name": "Esomeprazole",
+      "page": 3799
+    },
+    {
+      "name": "Etanercept",
+      "page": 3812
+    },
+    {
+      "name": "Etanercept-szzs",
+      "page": 3832
+    },
+    {
+      "name": "Etanercept-ykro",
+      "page": 3845
+    },
+    {
+      "name": "Eteplirsen",
+      "page": 3852
+    },
+    {
+      "name": "Etesevimab",
+      "page": 3857
+    },
+    {
+      "name": "Ethambutol",
+      "page": 3871
+    },
+    {
+      "name": "Ethionamide",
+      "page": 3896
+    },
+    {
+      "name": "Ethosuximide",
+      "page": 3905
+    },
+    {
+      "name": "Etomidate",
+      "page": 3909
+    },
+    {
+      "name": "Etravirine",
+      "page": 3916
+    },
+    {
+      "name": "Etuvetidigene Autotemcel",
+      "page": 3934
+    },
+    {
+      "name": "Everolimus",
+      "page": 3941
+    },
+    {
+      "name": "Evinacumab-dgnb",
+      "page": 3952
+    },
+    {
+      "name": "Evolocumab",
+      "page": 3959
+    },
+    {
+      "name": "Exagamglogene Autotemcel",
+      "page": 3963
+    },
+    {
+      "name": "Exenatide",
+      "page": 3971
+    },
+    {
+      "name": "Ezetimibe_Simvastatin",
+      "page": 3978
+    },
+    {
+      "name": "Factor IX Albumin Fusion Protein Recombinant",
+      "page": 3995
+    },
+    {
+      "name": "Factor IX Recombinant",
+      "page": 4002
+    },
+    {
+      "name": "Factor VIIa, recombinant",
+      "page": 4009
+    },
+    {
+      "name": "Factor X Human",
+      "page": 4021
+    },
+    {
+      "name": "Factor XIII Concentrate, Human",
+      "page": 4026
+    },
+    {
+      "name": "Factor XIII, Recombinant",
+      "page": 4030
+    },
+    {
+      "name": "Famotidine",
+      "page": 4034
+    },
+    {
+      "name": "Fat Emulsion",
+      "page": 4043
+    },
+    {
+      "name": "Felbamate",
+      "page": 4061
+    },
+    {
+      "name": "Fenfluramine",
+      "page": 4066
+    },
+    {
+      "name": "Fenoldopam",
+      "page": 4077
+    },
+    {
+      "name": "FentaNYL",
+      "page": 4084
+    },
+    {
+      "name": "Ferric Carboxymaltose",
+      "page": 4113
+    },
+    {
+      "name": "Ferrous sulfate",
+      "page": 4117
+    },
+    {
+      "name": "Fesoterodine",
+      "page": 4124
+    },
+    {
+      "name": "Fexinidazole",
+      "page": 4130
+    },
+    {
+      "name": "Fexofenadine",
+      "page": 4135
+    },
+    {
+      "name": "Fibrinogen",
+      "page": 4139
+    },
+    {
+      "name": "Fidaxomicin",
+      "page": 4145
+    },
+    {
+      "name": "Filgrastim",
+      "page": 4151
+    },
+    {
+      "name": "Filgrastim-aafi",
+      "page": 4163
+    },
+    {
+      "name": "Filgrastim-ayow",
+      "page": 4171
+    },
+    {
+      "name": "Filgrastim-sndz",
+      "page": 4180
+    },
+    {
+      "name": "Filgrastim-txid",
+      "page": 4187
+    },
+    {
+      "name": "Finafloxacin",
+      "page": 4197
+    },
+    {
+      "name": "Fingolimod",
+      "page": 4200
+    },
+    {
+      "name": "Fitusiran",
+      "page": 4212
+    },
+    {
+      "name": "Flecainide",
+      "page": 4221
+    },
+    {
+      "name": "Fluconazole",
+      "page": 4228
+    },
+    {
+      "name": "Flucytosine",
+      "page": 4252
+    },
+    {
+      "name": "Fludrocortisone",
+      "page": 4258
+    },
+    {
+      "name": "Flumazenil",
+      "page": 4262
+    },
+    {
+      "name": "Flunisolide",
+      "page": 4267
+    },
+    {
+      "name": "Fluocinonide",
+      "page": 4278
+    },
+    {
+      "name": "FLUoxetine",
+      "page": 4284
+    },
+    {
+      "name": "Fluoxetine_OLANZapine",
+      "page": 4297
+    },
+    {
+      "name": "Flurandrenolide",
+      "page": 4305
+    },
+    {
+      "name": "Fluticasone",
+      "page": 4310
+    },
+    {
+      "name": "Fluticasone_Salmeterol",
+      "page": 4327
+    },
+    {
+      "name": "Fluticasone_Vilanterol",
+      "page": 4339
+    },
+    {
+      "name": "Fluvastatin",
+      "page": 4347
+    },
+    {
+      "name": "FluvoxaMINE",
+      "page": 4353
+    },
+    {
+      "name": "Folic Acid",
+      "page": 4361
+    },
+    {
+      "name": "Fondaparinux",
+      "page": 4369
+    },
+    {
+      "name": "Formoterol",
+      "page": 4378
+    },
+    {
+      "name": "Fosamprenavir",
+      "page": 4383
+    },
+    {
+      "name": "Fosaprepitant",
+      "page": 4402
+    },
+    {
+      "name": "Foscarnet",
+      "page": 4409
+    },
+    {
+      "name": "Fosdenopterin",
+      "page": 4417
+    },
+    {
+      "name": "Fosinopril",
+      "page": 4422
+    },
+    {
+      "name": "Fosphenytoin",
+      "page": 4427
+    },
+    {
+      "name": "Furosemide",
+      "page": 4446
+    },
+    {
+      "name": "Gabapentin",
+      "page": 4464
+    },
+    {
+      "name": "Ganaxolone",
+      "page": 4471
+    },
+    {
+      "name": "Ganciclovir",
+      "page": 4476
+    },
+    {
+      "name": "Garadacimab-gxii",
+      "page": 4489
+    },
+    {
+      "name": "Gatifloxacin",
+      "page": 4494
+    },
+    {
+      "name": "Gentamicin",
+      "page": 4497
+    },
+    {
+      "name": "Gentian Violet",
+      "page": 4523
+    },
+    {
+      "name": "Gepotidacin",
+      "page": 4525
+    },
+    {
+      "name": "Givinostat",
+      "page": 4532
+    },
+    {
+      "name": "Glecaprevir_Pibrentasvir",
+      "page": 4538
+    },
+    {
+      "name": "Glimepiride",
+      "page": 4553
+    },
+    {
+      "name": "Glucagon",
+      "page": 4557
+    },
+    {
+      "name": "Glucarpidase",
+      "page": 4567
+    },
+    {
+      "name": "GlyBURIDE",
+      "page": 4576
+    },
+    {
+      "name": "Glycerin",
+      "page": 4582
+    },
+    {
+      "name": "Glycerol Phenylbutyrate",
+      "page": 4584
+    },
+    {
+      "name": "Glycopyrrolate",
+      "page": 4591
+    },
+    {
+      "name": "Glycopyrrolate_Neostigmine",
+      "page": 4602
+    },
+    {
+      "name": "Glycopyrronium Tosylate",
+      "page": 4609
+    },
+    {
+      "name": "Golimumab",
+      "page": 4613
+    },
+    {
+      "name": "Golodirsen",
+      "page": 4622
+    },
+    {
+      "name": "Granisetron",
+      "page": 4627
+    },
+    {
+      "name": "Griseofulvin",
+      "page": 4640
+    },
+    {
+      "name": "GuanFACINE",
+      "page": 4647
+    },
+    {
+      "name": "Guselkumab",
+      "page": 4652
+    },
+    {
+      "name": "Halcinonide",
+      "page": 4665
+    },
+    {
+      "name": "Halobetasol",
+      "page": 4669
+    },
+    {
+      "name": "Haloperidol",
+      "page": 4674
+    },
+    {
+      "name": "Heparin",
+      "page": 4687
+    },
+    {
+      "name": "Hepatitis A Vaccine",
+      "page": 4697
+    },
+    {
+      "name": "Hib Conjugate_Hepatitis B Combination Vaccine",
+      "page": 4716
+    },
+    {
+      "name": "Histrelin",
+      "page": 4719
+    },
+    {
+      "name": "Hyaluronidase",
+      "page": 4731
+    },
+    {
+      "name": "Hyaluronidase Human, Recombinant_Immune Globulin",
+      "page": 4737
+    },
+    {
+      "name": "HydrALAZINE",
+      "page": 4745
+    },
+    {
+      "name": "HydroCHLOROthiazide",
+      "page": 4752
+    },
+    {
+      "name": "HYDROcodone_Acetaminophen",
+      "page": 4759
+    },
+    {
+      "name": "HYDROcodone_Ibuprofen",
+      "page": 4772
+    },
+    {
+      "name": "Hydrocortisone",
+      "page": 4782
+    },
+    {
+      "name": "Hydrocortisone_Neomycin Sulfate_Polymyxin B Sulfate",
+      "page": 4800
+    },
+    {
+      "name": "HYDROmorphone",
+      "page": 4804
+    },
+    {
+      "name": "Hydroxocobalamin",
+      "page": 4820
+    },
+    {
+      "name": "Hydroxychloroquine sulfate",
+      "page": 4824
+    },
+    {
+      "name": "Hydroxyurea",
+      "page": 4834
+    },
+    {
+      "name": "HydrOXYzine",
+      "page": 4847
+    },
+    {
+      "name": "Hyoscyamine",
+      "page": 4859
+    },
+    {
+      "name": "Hypertonic Saline",
+      "page": 4867
+    },
+    {
+      "name": "Hypromellose",
+      "page": 4877
+    },
+    {
+      "name": "Ibrexafungerp",
+      "page": 4878
+    },
+    {
+      "name": "Ibuprofen",
+      "page": 4883
+    },
+    {
+      "name": "Iloprost",
+      "page": 4898
+    },
+    {
+      "name": "Imiglucerase",
+      "page": 4902
+    },
+    {
+      "name": "Imipenem_Cilastatin",
+      "page": 4907
+    },
+    {
+      "name": "Imipenem_Cilastatin_Relebactam",
+      "page": 4927
+    },
+    {
+      "name": "Imipramine",
+      "page": 4943
+    },
+    {
+      "name": "Immune Globulin-dira",
+      "page": 5007
+    },
+    {
+      "name": "Immune Globulin-hipp",
+      "page": 5013
+    },
+    {
+      "name": "Immune Globulin-ifas",
+      "page": 5021
+    },
+    {
+      "name": "Immune Globulin-klhw",
+      "page": 5028
+    },
+    {
+      "name": "Immune Globulin-slra",
+      "page": 5036
+    },
+    {
+      "name": "IncobotulinumtoxinA",
+      "page": 5042
+    },
+    {
+      "name": "Indomethacin",
+      "page": 5050
+    },
+    {
+      "name": "InFLIXimab",
+      "page": 5058
+    },
+    {
+      "name": "InFLIXimab-abda",
+      "page": 5084
+    },
+    {
+      "name": "InFLIXimab-axxq",
+      "page": 5094
+    },
+    {
+      "name": "InFLIXimab-dyyb",
+      "page": 5105
+    },
+    {
+      "name": "InFLIXimab-qbtx",
+      "page": 5112
+    },
+    {
+      "name": "Influenza Virus Vaccine",
+      "page": 5121
+    },
+    {
+      "name": "Influenza Virus Vaccine, H5N1",
+      "page": 5132
+    },
+    {
+      "name": "INFUVITE Pediatric",
+      "page": 5137
+    },
+    {
+      "name": "Insulin Aspart-szjj, Recombinant",
+      "page": 5153
+    },
+    {
+      "name": "Insulin aspart-xjhz",
+      "page": 5160
+    },
+    {
+      "name": "Insulin Aspart, Recombinant",
+      "page": 5142
+    },
+    {
+      "name": "Insulin Degludec",
+      "page": 5169
+    },
+    {
+      "name": "Insulin Degludec_Insulin Aspart",
+      "page": 5177
+    },
+    {
+      "name": "Insulin Detemir",
+      "page": 5183
+    },
+    {
+      "name": "Insulin Glargine-aglr, Recombinant",
+      "page": 5202
+    },
+    {
+      "name": "Insulin Glargine-yfgn, Recombinant",
+      "page": 5210
+    },
+    {
+      "name": "Insulin Glargine, Recombinant",
+      "page": 5192
+    },
+    {
+      "name": "Insulin Glulisine",
+      "page": 5218
+    },
+    {
+      "name": "Insulin Human Regular",
+      "page": 5231
+    },
+    {
+      "name": "Insulin Lispro-aabc, Recombinant",
+      "page": 5256
+    },
+    {
+      "name": "Insulin Lispro, Recombinant",
+      "page": 5245
+    },
+    {
+      "name": "Ipratropium",
+      "page": 5266
+    },
+    {
+      "name": "Irbesartan",
+      "page": 5271
+    },
+    {
+      "name": "Iron Dextran",
+      "page": 5276
+    },
+    {
+      "name": "Iron Sucrose",
+      "page": 5281
+    },
+    {
+      "name": "Isavuconazonium Sulfate",
+      "page": 5287
+    },
+    {
+      "name": "Isoniazid",
+      "page": 5295
+    },
+    {
+      "name": "ISOtretinoin",
+      "page": 5327
+    },
+    {
+      "name": "Isradipine",
+      "page": 5336
+    },
+    {
+      "name": "Itraconazole",
+      "page": 5341
+    },
+    {
+      "name": "Ivabradine",
+      "page": 5368
+    },
+    {
+      "name": "Ivacaftor",
+      "page": 5374
+    },
+    {
+      "name": "Ivermectin",
+      "page": 5381
+    },
+    {
+      "name": "Ixekizumab",
+      "page": 5388
+    },
+    {
+      "name": "Japanese Encephalitis Virus Vaccine, Inactivated Adsorbed",
+      "page": 5393
+    },
+    {
+      "name": "Ketamine",
+      "page": 5397
+    },
+    {
+      "name": "Ketoconazole",
+      "page": 5412
+    },
+    {
+      "name": "Ketorolac",
+      "page": 5420
+    },
+    {
+      "name": "Ketorolac_Phenylephrine",
+      "page": 5440
+    },
+    {
+      "name": "L-Glutamine",
+      "page": 5755
+    },
+    {
+      "name": "Labetalol",
+      "page": 5443
+    },
+    {
+      "name": "Lacosamide",
+      "page": 5452
+    },
+    {
+      "name": "Lactulose",
+      "page": 5462
+    },
+    {
+      "name": "LamiVUDine",
+      "page": 5466
+    },
+    {
+      "name": "LamiVUDine_Tenofovir Disoproxil Fumarate",
+      "page": 5498
+    },
+    {
+      "name": "LamoTRIgine",
+      "page": 5525
+    },
+    {
+      "name": "Lanadelumab-flyo",
+      "page": 5546
+    },
+    {
+      "name": "Lansoprazole",
+      "page": 5551
+    },
+    {
+      "name": "Latanoprostene Bunod",
+      "page": 5563
+    },
+    {
+      "name": "Lebrikizumab-lbkz",
+      "page": 5567
+    },
+    {
+      "name": "Ledipasvir_Sofosbuvir",
+      "page": 5572
+    },
+    {
+      "name": "Leflunomide",
+      "page": 5585
+    },
+    {
+      "name": "Lenacapavir",
+      "page": 5598
+    },
+    {
+      "name": "Leniolisib",
+      "page": 5605
+    },
+    {
+      "name": "Letermovir",
+      "page": 5611
+    },
+    {
+      "name": "Leucovorin",
+      "page": 5624
+    },
+    {
+      "name": "Leuprolide",
+      "page": 5638
+    },
+    {
+      "name": "Levacetylleucine",
+      "page": 5648
+    },
+    {
+      "name": "Levalbuterol",
+      "page": 5653
+    },
+    {
+      "name": "Levamlodipine",
+      "page": 5664
+    },
+    {
+      "name": "LevETIRAcetam",
+      "page": 5669
+    },
+    {
+      "name": "LevOCARNitine",
+      "page": 5687
+    },
+    {
+      "name": "Levocetirizine",
+      "page": 5692
+    },
+    {
+      "name": "LevoFLOXacin",
+      "page": 5697
+    },
+    {
+      "name": "LEVOleucovorin",
+      "page": 5736
+    },
+    {
+      "name": "Levothyroxine",
+      "page": 5742
+    },
+    {
+      "name": "Lidocaine",
+      "page": 5773
+    },
+    {
+      "name": "Lidocaine - Antiarrhythmic",
+      "page": 5759
+    },
+    {
+      "name": "Lidocaine - CNS",
+      "page": 5766
+    },
+    {
+      "name": "Lidocaine_Prilocaine",
+      "page": 5793
+    },
+    {
+      "name": "Linaclotide",
+      "page": 5798
+    },
+    {
+      "name": "Linezolid",
+      "page": 5802
+    },
+    {
+      "name": "Liothyronine",
+      "page": 5818
+    },
+    {
+      "name": "Liraglutide",
+      "page": 5824
+    },
+    {
+      "name": "Lisdexamfetamine",
+      "page": 5835
+    },
+    {
+      "name": "Lisinopril",
+      "page": 5846
+    },
+    {
+      "name": "Lithium",
+      "page": 5855
+    },
+    {
+      "name": "Lonafarnib",
+      "page": 5863
+    },
+    {
+      "name": "Lonapegsomatropin-tcgd",
+      "page": 5872
+    },
+    {
+      "name": "Loperamide",
+      "page": 5881
+    },
+    {
+      "name": "Lopinavir_Ritonavir",
+      "page": 5887
+    },
+    {
+      "name": "Loratadine",
+      "page": 5916
+    },
+    {
+      "name": "LORazepam",
+      "page": 5920
+    },
+    {
+      "name": "Losartan",
+      "page": 5937
+    },
+    {
+      "name": "Loteprednol Etabonate",
+      "page": 5948
+    },
+    {
+      "name": "Lovastatin",
+      "page": 5952
+    },
+    {
+      "name": "Luliconazole",
+      "page": 5960
+    },
+    {
+      "name": "Lumacaftor_Ivacaftor",
+      "page": 5963
+    },
+    {
+      "name": "Lumasiran",
+      "page": 5971
+    },
+    {
+      "name": "Lurasidone",
+      "page": 5975
+    },
+    {
+      "name": "Magnesium Citrate",
+      "page": 5981
+    },
+    {
+      "name": "Magnesium Hydroxide",
+      "page": 5985
+    },
+    {
+      "name": "Magnesium Oxide",
+      "page": 5991
+    },
+    {
+      "name": "Magnesium sulfate",
+      "page": 5995
+    },
+    {
+      "name": "Magnesium Sulfate_Potassium Sulfate_Sodium Sulfate",
+      "page": 6000
+    },
+    {
+      "name": "Malathion",
+      "page": 6005
+    },
+    {
+      "name": "Mannitol",
+      "page": 6009
+    },
+    {
+      "name": "Maralixibat",
+      "page": 6026
+    },
+    {
+      "name": "Maraviroc",
+      "page": 6035
+    },
+    {
+      "name": "Maribavir",
+      "page": 6056
+    },
+    {
+      "name": "Marstacimab-hncq",
+      "page": 6063
+    },
+    {
+      "name": "Mavorixafor",
+      "page": 6072
+    },
+    {
+      "name": "Mebendazole",
+      "page": 6100
+    },
+    {
+      "name": "Mecasermin",
+      "page": 6106
+    },
+    {
+      "name": "Mefloquine",
+      "page": 6113
+    },
+    {
+      "name": "Meloxicam",
+      "page": 6119
+    },
+    {
+      "name": "Meningococcal Vaccine, Group B",
+      "page": 6136
+    },
+    {
+      "name": "Meningococcal Vaccine; Group A, C, Y, and W-135",
+      "page": 6142
+    },
+    {
+      "name": "Meperidine",
+      "page": 6152
+    },
+    {
+      "name": "Mepolizumab",
+      "page": 6167
+    },
+    {
+      "name": "Mercaptopurine",
+      "page": 6172
+    },
+    {
+      "name": "Meropenem",
+      "page": 6189
+    },
+    {
+      "name": "Meropenem_vaborbactam",
+      "page": 6210
+    },
+    {
+      "name": "Mesalamine",
+      "page": 6225
+    },
+    {
+      "name": "MetFORMIN",
+      "page": 6232
+    },
+    {
+      "name": "Methacholine",
+      "page": 6245
+    },
+    {
+      "name": "Methadone",
+      "page": 6256
+    },
+    {
+      "name": "Methamphetamine",
+      "page": 6274
+    },
+    {
+      "name": "MethIMAzole",
+      "page": 6284
+    },
+    {
+      "name": "Methohexital",
+      "page": 6290
+    },
+    {
+      "name": "Methotrexate",
+      "page": 6297
+    },
+    {
+      "name": "Methoxy Polyethylene Glycol-Epoetin Beta",
+      "page": 6330
+    },
+    {
+      "name": "Methyldopa",
+      "page": 6340
+    },
+    {
+      "name": "Methylene Blue",
+      "page": 6347
+    },
+    {
+      "name": "Methylnaltrexone",
+      "page": 6352
+    },
+    {
+      "name": "Methylphenidate",
+      "page": 6358
+    },
+    {
+      "name": "MethylPREDNISolone",
+      "page": 6383
+    },
+    {
+      "name": "Metoclopramide",
+      "page": 6402
+    },
+    {
+      "name": "Metoprolol",
+      "page": 6412
+    },
+    {
+      "name": "Metreleptin",
+      "page": 6422
+    },
+    {
+      "name": "MetroNIDAZOLE",
+      "page": 6430
+    },
+    {
+      "name": "Micafungin",
+      "page": 6448
+    },
+    {
+      "name": "Miconazole",
+      "page": 6471
+    },
+    {
+      "name": "Midazolam",
+      "page": 6473
+    },
+    {
+      "name": "MigLUstat",
+      "page": 6500
+    },
+    {
+      "name": "Milrinone",
+      "page": 6509
+    },
+    {
+      "name": "Miltefosine",
+      "page": 6519
+    },
+    {
+      "name": "Mineral Oil",
+      "page": 6526
+    },
+    {
+      "name": "Mineral Oil_White Petrolatum",
+      "page": 6531
+    },
+    {
+      "name": "Minocycline",
+      "page": 6533
+    },
+    {
+      "name": "Minoxidil",
+      "page": 6562
+    },
+    {
+      "name": "Mirabegron",
+      "page": 6567
+    },
+    {
+      "name": "Mirdametinib",
+      "page": 6573
+    },
+    {
+      "name": "Mixed Grass Pollen Allergen Extract",
+      "page": 6580
+    },
+    {
+      "name": "Modafinil",
+      "page": 6585
+    },
+    {
+      "name": "Mometasone",
+      "page": 6592
+    },
+    {
+      "name": "Mometasone_Formoterol",
+      "page": 6613
+    },
+    {
+      "name": "Montelukast",
+      "page": 6623
+    },
+    {
+      "name": "Morphine",
+      "page": 6635
+    },
+    {
+      "name": "Moxidectin",
+      "page": 6661
+    },
+    {
+      "name": "Moxifloxacin",
+      "page": 6665
+    },
+    {
+      "name": "Multivitamin Drops",
+      "page": 6691
+    },
+    {
+      "name": "Multivitamin Gummies",
+      "page": 6694
+    },
+    {
+      "name": "Multivitamin Tablets",
+      "page": 6697
+    },
+    {
+      "name": "Mupirocin",
+      "page": 6699
+    },
+    {
+      "name": "Mycophenolate mofetil",
+      "page": 6703
+    },
+    {
+      "name": "Mycophenolic Acid",
+      "page": 6730
+    },
+    {
+      "name": "Nadolol",
+      "page": 6736
+    },
+    {
+      "name": "Nafarelin",
+      "page": 6743
+    },
+    {
+      "name": "Nafcillin",
+      "page": 6748
+    },
+    {
+      "name": "Naftifine",
+      "page": 6758
+    },
+    {
+      "name": "Nalbuphine",
+      "page": 6761
+    },
+    {
+      "name": "Nalmefene",
+      "page": 6769
+    },
+    {
+      "name": "Naloxone",
+      "page": 6776
+    },
+    {
+      "name": "Naproxen",
+      "page": 6787
+    },
+    {
+      "name": "Naproxen_Esomeprazole",
+      "page": 6795
+    },
+    {
+      "name": "Natalizumab",
+      "page": 6804
+    },
+    {
+      "name": "Nedosiran",
+      "page": 6813
+    },
+    {
+      "name": "Nemolizumab-ilto",
+      "page": 6818
+    },
+    {
+      "name": "Neostigmine",
+      "page": 6823
+    },
+    {
+      "name": "Nevirapine",
+      "page": 6827
+    },
+    {
+      "name": "NiCARdipine",
+      "page": 6842
+    },
+    {
+      "name": "NIFEdipine",
+      "page": 6847
+    },
+    {
+      "name": "Nifurtimox",
+      "page": 6854
+    },
+    {
+      "name": "NiMODipine",
+      "page": 6860
+    },
+    {
+      "name": "Nipocalimab-aahu",
+      "page": 6866
+    },
+    {
+      "name": "Nirmatrelvir_Ritonavir",
+      "page": 6872
+    },
+    {
+      "name": "Nirsevimab-alip",
+      "page": 6880
+    },
+    {
+      "name": "Nitazoxanide",
+      "page": 6888
+    },
+    {
+      "name": "Nitisinone",
+      "page": 6894
+    },
+    {
+      "name": "Nitric Oxide",
+      "page": 6900
+    },
+    {
+      "name": "Nitrofurantoin",
+      "page": 6908
+    },
+    {
+      "name": "Nitroglycerin",
+      "page": 6920
+    },
+    {
+      "name": "Nizatidine",
+      "page": 6929
+    },
+    {
+      "name": "Norepinephrine",
+      "page": 6934
+    },
+    {
+      "name": "Norgestrel",
+      "page": 6944
+    },
+    {
+      "name": "Nortriptyline",
+      "page": 6949
+    },
+    {
+      "name": "Nusinersen",
+      "page": 6957
+    },
+    {
+      "name": "Nystatin",
+      "page": 6961
+    },
+    {
+      "name": "Obiltoxaximab",
+      "page": 6965
+    },
+    {
+      "name": "Obinutuzumab",
+      "page": 6971
+    },
+    {
+      "name": "Octreotide",
+      "page": 6978
+    },
+    {
+      "name": "Odevixibat",
+      "page": 6988
+    },
+    {
+      "name": "Ofatumumab",
+      "page": 6997
+    },
+    {
+      "name": "Ofloxacin",
+      "page": 7004
+    },
+    {
+      "name": "OLANZapine",
+      "page": 7019
+    },
+    {
+      "name": "Olipudase alfa-rpcp",
+      "page": 7034
+    },
+    {
+      "name": "Olmesartan",
+      "page": 7043
+    },
+    {
+      "name": "Olopatadine",
+      "page": 7049
+    },
+    {
+      "name": "Olopatadine_Mometasone",
+      "page": 7054
+    },
+    {
+      "name": "Omadacycline",
+      "page": 7059
+    },
+    {
+      "name": "Omalizumab",
+      "page": 7068
+    },
+    {
+      "name": "Omalizumab-igec",
+      "page": 7098
+    },
+    {
+      "name": "Omaveloxolone",
+      "page": 7119
+    },
+    {
+      "name": "Omeprazole",
+      "page": 7124
+    },
+    {
+      "name": "OnabotulinumtoxinA",
+      "page": 7137
+    },
+    {
+      "name": "Onasemnogene Abeparvovec-brve",
+      "page": 7151
+    },
+    {
+      "name": "Onasemnogene Abeparvovec-xioi",
+      "page": 7157
+    },
+    {
+      "name": "Ondansetron",
+      "page": 7167
+    },
+    {
+      "name": "Oseltamivir",
+      "page": 7185
+    },
+    {
+      "name": "Oxacillin",
+      "page": 7193
+    },
+    {
+      "name": "Oxaprozin",
+      "page": 7202
+    },
+    {
+      "name": "OXcarbazepine",
+      "page": 7211
+    },
+    {
+      "name": "Oxiconazole",
+      "page": 7222
+    },
+    {
+      "name": "OxyBUTYnin",
+      "page": 7225
+    },
+    {
+      "name": "OxyCODONE",
+      "page": 7235
+    },
+    {
+      "name": "OxyCODONE_Acetaminophen",
+      "page": 7251
+    },
+    {
+      "name": "OxyCODONE_Ibuprofen",
+      "page": 7265
+    },
+    {
+      "name": "Ozenoxacin",
+      "page": 7272
+    },
+    {
+      "name": "Paliperidone",
+      "page": 7275
+    },
+    {
+      "name": "Palivizumab",
+      "page": 7281
+    },
+    {
+      "name": "Palonosetron",
+      "page": 7287
+    },
+    {
+      "name": "Palovarotene",
+      "page": 7300
+    },
+    {
+      "name": "Pamidronate",
+      "page": 7308
+    },
+    {
+      "name": "Pancrelipase",
+      "page": 7320
+    },
+    {
+      "name": "Pancuronium",
+      "page": 7328
+    },
+    {
+      "name": "Pantoprazole",
+      "page": 7333
+    },
+    {
+      "name": "Papaverine",
+      "page": 7351
+    },
+    {
+      "name": "Paricalcitol",
+      "page": 7354
+    },
+    {
+      "name": "Paromomycin",
+      "page": 7361
+    },
+    {
+      "name": "PARoxetine",
+      "page": 7364
+    },
+    {
+      "name": "Patiromer",
+      "page": 7374
+    },
+    {
+      "name": "Peanut Allergen-dnfp",
+      "page": 7379
+    },
+    {
+      "name": "Pegademase Bovine",
+      "page": 7386
+    },
+    {
+      "name": "Pegcetacoplan",
+      "page": 7390
+    },
+    {
+      "name": "Pegfilgrastim",
+      "page": 7398
+    },
+    {
+      "name": "Pegfilgrastim-apgf",
+      "page": 7405
+    },
+    {
+      "name": "Pegfilgrastim-bmez",
+      "page": 7410
+    },
+    {
+      "name": "Pegfilgrastim-cbqv",
+      "page": 7415
+    },
+    {
+      "name": "Pegfilgrastim-fpgk",
+      "page": 7421
+    },
+    {
+      "name": "Pegfilgrastim-jmdb",
+      "page": 7426
+    },
+    {
+      "name": "Pegfilgrastim-pbbk",
+      "page": 7430
+    },
+    {
+      "name": "Peginterferon Alfa-2a",
+      "page": 7436
+    },
+    {
+      "name": "Peginterferon Alfa-2b",
+      "page": 7450
+    },
+    {
+      "name": "Pemivibart",
+      "page": 7464
+    },
+    {
+      "name": "Penicillin G",
+      "page": 7471
+    },
+    {
+      "name": "Penicillin G benzathine",
+      "page": 7484
+    },
+    {
+      "name": "Penicillin G benzathine_Penicillin G procaine",
+      "page": 7488
+    },
+    {
+      "name": "Penicillin G procaine",
+      "page": 7493
+    },
+    {
+      "name": "Penicillin V Potassium",
+      "page": 7495
+    },
+    {
+      "name": "Pentamidine",
+      "page": 7505
+    },
+    {
+      "name": "PENTobarbital",
+      "page": 7516
+    },
+    {
+      "name": "Peramivir",
+      "page": 7527
+    },
+    {
+      "name": "Perampanel",
+      "page": 7532
+    },
+    {
+      "name": "Perflutren Lipid Microsphere",
+      "page": 7539
+    },
+    {
+      "name": "Perflutren Protein-Type A Microsphere",
+      "page": 7546
+    },
+    {
+      "name": "Permethrin",
+      "page": 7552
+    },
+    {
+      "name": "PHENobarbital",
+      "page": 7556
+    },
+    {
+      "name": "Phentermine_Topiramate",
+      "page": 7567
+    },
+    {
+      "name": "Phentolamine",
+      "page": 7577
+    },
+    {
+      "name": "Phenylephrine",
+      "page": 7583
+    },
+    {
+      "name": "Phenytoin",
+      "page": 7586
+    },
+    {
+      "name": "Pimecrolimus",
+      "page": 7603
+    },
+    {
+      "name": "Piperacillin",
+      "page": 7607
+    },
+    {
+      "name": "Piperacillin_Tazobactam",
+      "page": 7612
+    },
+    {
+      "name": "Pitavastatin",
+      "page": 7632
+    },
+    {
+      "name": "Pitolisant",
+      "page": 7638
+    },
+    {
+      "name": "Plasminogen, Human-tvmh",
+      "page": 7643
+    },
+    {
+      "name": "Pneumococcal 15-Valent Vaccine, Diphtheria Conjugate",
+      "page": 7654
+    },
+    {
+      "name": "Pneumococcal conjugate 20-valent vaccine",
+      "page": 7661
+    },
+    {
+      "name": "Poliovirus Vaccine Enhanced-Inactivated",
+      "page": 7674
+    },
+    {
+      "name": "Polyethylene Glycol 3350",
+      "page": 7679
+    },
+    {
+      "name": "Polyethylene Glycol 3350_Sodium Chloride_Sodium Bicarbonate_KCL",
+      "page": 7684
+    },
+    {
+      "name": "Polyethylene Glycol 3350_Sodium Sulfate_Sodium Bicarbonate_Sodium Chloride_KCL",
+      "page": 7689
+    },
+    {
+      "name": "Polymyxin B_Trimethoprim",
+      "page": 7695
+    },
+    {
+      "name": "Posaconazole",
+      "page": 7698
+    },
+    {
+      "name": "Potassium chloride",
+      "page": 7720
+    },
+    {
+      "name": "Potassium Iodide",
+      "page": 7725
+    },
+    {
+      "name": "Potassium Phosphate",
+      "page": 7728
+    },
+    {
+      "name": "Potassium Phosphate_Sodium Phosphate, Monobasic and Dibasic",
+      "page": 7736
+    },
+    {
+      "name": "Pozelimab-bbfg",
+      "page": 7740
+    },
+    {
+      "name": "Prademagene Zamikeracel",
+      "page": 7746
+    },
+    {
+      "name": "Pralidoxime",
+      "page": 7750
+    },
+    {
+      "name": "Pravastatin",
+      "page": 7756
+    },
+    {
+      "name": "Prednicarbate",
+      "page": 7764
+    },
+    {
+      "name": "PrednisoLONE",
+      "page": 7768
+    },
+    {
+      "name": "PredniSONE",
+      "page": 7801
+    },
+    {
+      "name": "Pregabalin",
+      "page": 7831
+    },
+    {
+      "name": "Pretomanid",
+      "page": 7836
+    },
+    {
+      "name": "Primaquine Phosphate",
+      "page": 7848
+    },
+    {
+      "name": "Probenecid",
+      "page": 7854
+    },
+    {
+      "name": "Procainamide",
+      "page": 7858
+    },
+    {
+      "name": "Prochlorperazine",
+      "page": 7864
+    },
+    {
+      "name": "Proparacaine",
+      "page": 7871
+    },
+    {
+      "name": "Propofol",
+      "page": 7874
+    },
+    {
+      "name": "Propranolol",
+      "page": 7892
+    },
+    {
+      "name": "Protamine",
+      "page": 7910
+    },
+    {
+      "name": "Psyllium",
+      "page": 7920
+    },
+    {
+      "name": "Pyrantel",
+      "page": 7923
+    },
+    {
+      "name": "Pyrazinamide",
+      "page": 7926
+    },
+    {
+      "name": "PyRIDostigmine",
+      "page": 7950
+    },
+    {
+      "name": "Pyridoxine",
+      "page": 7955
+    },
+    {
+      "name": "Pyrimethamine",
+      "page": 7960
+    },
+    {
+      "name": "QUEtiapine",
+      "page": 7969
+    },
+    {
+      "name": "Quinapril",
+      "page": 7982
+    },
+    {
+      "name": "QuiNINE Sulfate",
+      "page": 7988
+    },
+    {
+      "name": "Quinupristin_Dalfopristin",
+      "page": 7995
+    },
+    {
+      "name": "RABEprazole",
+      "page": 8000
+    },
+    {
+      "name": "Rabies Immune Globulin",
+      "page": 8007
+    },
+    {
+      "name": "Rabies Vaccine",
+      "page": 8010
+    },
+    {
+      "name": "Raltegravir",
+      "page": 8016
+    },
+    {
+      "name": "Ranibizumab",
+      "page": 8038
+    },
+    {
+      "name": "RaNITIdine",
+      "page": 8045
+    },
+    {
+      "name": "Rasburicase",
+      "page": 8053
+    },
+    {
+      "name": "Ravulizumab-cwvz",
+      "page": 8059
+    },
+    {
+      "name": "Raxibacumab",
+      "page": 8074
+    },
+    {
+      "name": "Remdesivir",
+      "page": 8080
+    },
+    {
+      "name": "Remestemcel-L-rknd",
+      "page": 8090
+    },
+    {
+      "name": "Remifentanil",
+      "page": 8095
+    },
+    {
+      "name": "Respiratory Syncytial Virus Vaccine",
+      "page": 8105
+    },
+    {
+      "name": "Ribavirin",
+      "page": 8109
+    },
+    {
+      "name": "Riboflavin 5-Phosphate",
+      "page": 8125
+    },
+    {
+      "name": "Rifabutin",
+      "page": 8128
+    },
+    {
+      "name": "RifAMPin",
+      "page": 8138
+    },
+    {
+      "name": "Rifapentine",
+      "page": 8179
+    },
+    {
+      "name": "RifAXIMin",
+      "page": 8188
+    },
+    {
+      "name": "Rilonacept",
+      "page": 8193
+    },
+    {
+      "name": "Rilpivirine",
+      "page": 8201
+    },
+    {
+      "name": "Risdiplam",
+      "page": 8220
+    },
+    {
+      "name": "Risedronate",
+      "page": 8225
+    },
+    {
+      "name": "RisperiDONE",
+      "page": 8231
+    },
+    {
+      "name": "Ritlecitinib",
+      "page": 8246
+    },
+    {
+      "name": "Ritonavir",
+      "page": 8254
+    },
+    {
+      "name": "RiTUXimab",
+      "page": 8278
+    },
+    {
+      "name": "Rivaroxaban",
+      "page": 8295
+    },
+    {
+      "name": "Rizatriptan",
+      "page": 8309
+    },
+    {
+      "name": "Rocuronium",
+      "page": 8318
+    },
+    {
+      "name": "Roflumilast",
+      "page": 8327
+    },
+    {
+      "name": "RomiPLOStim",
+      "page": 8336
+    },
+    {
+      "name": "Ropivacaine",
+      "page": 8343
+    },
+    {
+      "name": "Rosiglitazone",
+      "page": 8351
+    },
+    {
+      "name": "Rosuvastatin",
+      "page": 8356
+    },
+    {
+      "name": "Rufinamide",
+      "page": 8379
+    },
+    {
+      "name": "Ruxolitinib",
+      "page": 8385
+    },
+    {
+      "name": "Sacrosidase",
+      "page": 8398
+    },
+    {
+      "name": "Sacubitril_Valsartan",
+      "page": 8403
+    },
+    {
+      "name": "Salicyclic Acid",
+      "page": 8411
+    },
+    {
+      "name": "Salmeterol",
+      "page": 8414
+    },
+    {
+      "name": "Sapropterin",
+      "page": 8420
+    },
+    {
+      "name": "Sarecycline",
+      "page": 8427
+    },
+    {
+      "name": "Sargramostim",
+      "page": 8431
+    },
+    {
+      "name": "Sarilumab",
+      "page": 8441
+    },
+    {
+      "name": "Scopolamine",
+      "page": 8464
+    },
+    {
+      "name": "Sebelipase Alfa",
+      "page": 8470
+    },
+    {
+      "name": "Sebetralstat",
+      "page": 8475
+    },
+    {
+      "name": "Secnidazole",
+      "page": 8480
+    },
+    {
+      "name": "Secukinumab",
+      "page": 8484
+    },
+    {
+      "name": "Selexipag",
+      "page": 8491
+    },
+    {
+      "name": "Selumetinib",
+      "page": 8500
+    },
+    {
+      "name": "Semaglutide",
+      "page": 8515
+    },
+    {
+      "name": "Senna",
+      "page": 8522
+    },
+    {
+      "name": "Sepiapterin",
+      "page": 8525
+    },
+    {
+      "name": "Serdexmethylphenidate_Dexmethylphenidate",
+      "page": 8534
+    },
+    {
+      "name": "Sertaconazole",
+      "page": 8544
+    },
+    {
+      "name": "Sertraline",
+      "page": 8547
+    },
+    {
+      "name": "Setmelanotide",
+      "page": 8557
+    },
+    {
+      "name": "Sevelamer",
+      "page": 8566
+    },
+    {
+      "name": "Short Ragweed Pollen Allergen Extract",
+      "page": 8572
+    },
+    {
+      "name": "Sildenafil",
+      "page": 8577
+    },
+    {
+      "name": "Simethicone",
+      "page": 8588
+    },
+    {
+      "name": "Simvastatin",
+      "page": 8591
+    },
+    {
+      "name": "Sirolimus",
+      "page": 8600
+    },
+    {
+      "name": "Smallpox Monkeypox Vaccine, Live Non-Replicating",
+      "page": 8614
+    },
+    {
+      "name": "Sodium Bicarbonate",
+      "page": 8617
+    },
+    {
+      "name": "Sodium Chloride",
+      "page": 8623
+    },
+    {
+      "name": "Sodium Ferric Gluconate Complex",
+      "page": 8629
+    },
+    {
+      "name": "Sodium Glycerophosphate",
+      "page": 8634
+    },
+    {
+      "name": "Sodium Nitrite and Sodium Thiosulfate",
+      "page": 8638
+    },
+    {
+      "name": "Sodium Nitroprusside",
+      "page": 8644
+    },
+    {
+      "name": "Sodium Oxybate",
+      "page": 8651
+    },
+    {
+      "name": "Sodium phenylacetate_Sodium benzoate",
+      "page": 8661
+    },
+    {
+      "name": "Sodium Phenylbutyrate",
+      "page": 8667
+    },
+    {
+      "name": "Sodium Picosulfate_Magnesium Oxide_Citric Acid",
+      "page": 8678
+    },
+    {
+      "name": "Sodium Polystyrene Sulfonate",
+      "page": 8686
+    },
+    {
+      "name": "Sofosbuvir",
+      "page": 8692
+    },
+    {
+      "name": "Sofosbuvir_Velpatasvir",
+      "page": 8704
+    },
+    {
+      "name": "Solifenacin",
+      "page": 8719
+    },
+    {
+      "name": "Somapacitan-beco",
+      "page": 8726
+    },
+    {
+      "name": "Somatrogon-ghla",
+      "page": 8733
+    },
+    {
+      "name": "Somatropin",
+      "page": 8740
+    },
+    {
+      "name": "Sorbitol",
+      "page": 8760
+    },
+    {
+      "name": "Sotalol",
+      "page": 8763
+    },
+    {
+      "name": "Sotrovimab",
+      "page": 8777
+    },
+    {
+      "name": "Spesolimab-sbzo",
+      "page": 8778
+    },
+    {
+      "name": "Spinosad",
+      "page": 8784
+    },
+    {
+      "name": "Spironolactone",
+      "page": 8787
+    },
+    {
+      "name": "Spironolactone_HydroCHLOROthiazide",
+      "page": 8795
+    },
+    {
+      "name": "Stiripentol",
+      "page": 8803
+    },
+    {
+      "name": "Streptomycin",
+      "page": 8808
+    },
+    {
+      "name": "Succinylcholine",
+      "page": 8818
+    },
+    {
+      "name": "Sucralfate",
+      "page": 8827
+    },
+    {
+      "name": "Sucroferric Oxyhydroxide",
+      "page": 8832
+    },
+    {
+      "name": "Sucrose",
+      "page": 8835
+    },
+    {
+      "name": "Sugammadex",
+      "page": 8838
+    },
+    {
+      "name": "Sulbactam_Durlobactam",
+      "page": 8845
+    },
+    {
+      "name": "Sulfacetamide_PrednisoLONE",
+      "page": 8852
+    },
+    {
+      "name": "SulfADIAZINE",
+      "page": 8857
+    },
+    {
+      "name": "SulfaSALAzine",
+      "page": 8865
+    },
+    {
+      "name": "SUMAtriptan",
+      "page": 8875
+    },
+    {
+      "name": "SUMAtriptan_Naproxen",
+      "page": 8885
+    },
+    {
+      "name": "Tacrolimus",
+      "page": 8894
+    },
+    {
+      "name": "Tadalafil",
+      "page": 8928
+    },
+    {
+      "name": "Tafenoquine",
+      "page": 8935
+    },
+    {
+      "name": "Taliglucerase Alfa",
+      "page": 8939
+    },
+    {
+      "name": "Tapentadol",
+      "page": 8943
+    },
+    {
+      "name": "Tapinarof",
+      "page": 8952
+    },
+    {
+      "name": "Tasimelteon",
+      "page": 8955
+    },
+    {
+      "name": "Tazarotene",
+      "page": 8960
+    },
+    {
+      "name": "Tbo-Filgrastim",
+      "page": 8970
+    },
+    {
+      "name": "Tdap Vaccine",
+      "page": 8974
+    },
+    {
+      "name": "Tecovirimat",
+      "page": 8982
+    },
+    {
+      "name": "Tedizolid Phosphate",
+      "page": 8995
+    },
+    {
+      "name": "Teduglutide",
+      "page": 9002
+    },
+    {
+      "name": "Tenofovir Alafenamide",
+      "page": 9008
+    },
+    {
+      "name": "Tenofovir Disoproxil Fumarate",
+      "page": 9035
+    },
+    {
+      "name": "Teplizumab-mzwv",
+      "page": 9067
+    },
+    {
+      "name": "Terbinafine",
+      "page": 9073
+    },
+    {
+      "name": "Terbutaline",
+      "page": 9081
+    },
+    {
+      "name": "Tetracycline",
+      "page": 9090
+    },
+    {
+      "name": "Tezacaftor_Ivacaftor; Ivacaftor",
+      "page": 9107
+    },
+    {
+      "name": "Tezepelumab-ekko",
+      "page": 9114
+    },
+    {
+      "name": "THAM acetate",
+      "page": 9119
+    },
+    {
+      "name": "Thiamine",
+      "page": 9123
+    },
+    {
+      "name": "TiaGABine",
+      "page": 9129
+    },
+    {
+      "name": "Ticarcillin_Clavulanate",
+      "page": 9133
+    },
+    {
+      "name": "Tick-Borne Encephalitis Vaccine",
+      "page": 9142
+    },
+    {
+      "name": "Tigecycline",
+      "page": 9145
+    },
+    {
+      "name": "Timolol",
+      "page": 9153
+    },
+    {
+      "name": "Timothy Grass Pollen Allergen Extract",
+      "page": 9161
+    },
+    {
+      "name": "Tinidazole",
+      "page": 9165
+    },
+    {
+      "name": "Tiopronin",
+      "page": 9171
+    },
+    {
+      "name": "Tiotropium",
+      "page": 9175
+    },
+    {
+      "name": "Tipranavir",
+      "page": 9180
+    },
+    {
+      "name": "Tirofiban",
+      "page": 9190
+    },
+    {
+      "name": "Tirzepatide",
+      "page": 9195
+    },
+    {
+      "name": "Tizanidine",
+      "page": 9202
+    },
+    {
+      "name": "Tobramycin",
+      "page": 9209
+    },
+    {
+      "name": "Tocilizumab",
+      "page": 9232
+    },
+    {
+      "name": "Tocilizumab-aazg",
+      "page": 9248
+    },
+    {
+      "name": "Tocilizumab-anoh",
+      "page": 9259
+    },
+    {
+      "name": "Tocilizumab-bavi",
+      "page": 9271
+    },
+    {
+      "name": "Tofacitinib",
+      "page": 9280
+    },
+    {
+      "name": "Tolnaftate",
+      "page": 9290
+    },
+    {
+      "name": "Topiramate",
+      "page": 9292
+    },
+    {
+      "name": "Trace Elements",
+      "page": 9313
+    },
+    {
+      "name": "Tralokinumab-ldrm",
+      "page": 9322
+    },
+    {
+      "name": "TraMADol",
+      "page": 9327
+    },
+    {
+      "name": "Tranexamic Acid",
+      "page": 9340
+    },
+    {
+      "name": "TraZODone",
+      "page": 9359
+    },
+    {
+      "name": "Treprostinil",
+      "page": 9368
+    },
+    {
+      "name": "Tretinoin",
+      "page": 9378
+    },
+    {
+      "name": "Tretinoin_Benzoyl Peroxide",
+      "page": 9383
+    },
+    {
+      "name": "Triamcinolone",
+      "page": 9387
+    },
+    {
+      "name": "Triclabendazole",
+      "page": 9401
+    },
+    {
+      "name": "Trifarotene",
+      "page": 9405
+    },
+    {
+      "name": "Triheptanoin",
+      "page": 9410
+    },
+    {
+      "name": "Trimethoprim_Sulfamethoxazole",
+      "page": 9415
+    },
+    {
+      "name": "Triptorelin",
+      "page": 9438
+    },
+    {
+      "name": "Trofinetide",
+      "page": 9443
+    },
+    {
+      "name": "Upadacitinib",
+      "page": 9449
+    },
+    {
+      "name": "Uridine Triacetate",
+      "page": 9460
+    },
+    {
+      "name": "Ursodiol",
+      "page": 9466
+    },
+    {
+      "name": "Ustekinumab",
+      "page": 9476
+    },
+    {
+      "name": "Ustekinumab-aauz",
+      "page": 9484
+    },
+    {
+      "name": "Ustekinumab-aekn",
+      "page": 9490
+    },
+    {
+      "name": "Ustekinumab-auub",
+      "page": 9496
+    },
+    {
+      "name": "Ustekinumab-hmny",
+      "page": 9502
+    },
+    {
+      "name": "Ustekinumab-kfce",
+      "page": 9508
+    },
+    {
+      "name": "Ustekinumab-srlf",
+      "page": 9514
+    },
+    {
+      "name": "Ustekinumab-stba",
+      "page": 9520
+    },
+    {
+      "name": "Ustekinumab-ttwe",
+      "page": 9526
+    },
+    {
+      "name": "Valacyclovir",
+      "page": 9532
+    },
+    {
+      "name": "ValGANciclovir",
+      "page": 9538
+    },
+    {
+      "name": "Valproic Acid and Derivatives",
+      "page": 9550
+    },
+    {
+      "name": "Valsartan",
+      "page": 9575
+    },
+    {
+      "name": "Vamorolone",
+      "page": 9582
+    },
+    {
+      "name": "Vancomycin",
+      "page": 9588
+    },
+    {
+      "name": "Vanzacaftor_Tezacaftor_Deutivacaftor",
+      "page": 9612
+    },
+    {
+      "name": "Varicella Virus Vaccine, Live",
+      "page": 9623
+    },
+    {
+      "name": "Varicella-zoster Immune Globulin",
+      "page": 9633
+    },
+    {
+      "name": "Vasopressin",
+      "page": 9637
+    },
+    {
+      "name": "Vecuronium",
+      "page": 9647
+    },
+    {
+      "name": "Vedolizumab",
+      "page": 9653
+    },
+    {
+      "name": "Velaglucerase alfa",
+      "page": 9663
+    },
+    {
+      "name": "Velmanase Alfa-tycv",
+      "page": 9667
+    },
+    {
+      "name": "Venlafaxine",
+      "page": 9672
+    },
+    {
+      "name": "Verapamil",
+      "page": 9685
+    },
+    {
+      "name": "Vestronidase Alfa-vjbk",
+      "page": 9695
+    },
+    {
+      "name": "Vigabatrin",
+      "page": 9699
+    },
+    {
+      "name": "Viloxazine",
+      "page": 9715
+    },
+    {
+      "name": "Viltolarsen",
+      "page": 9722
+    },
+    {
+      "name": "Vitamin A",
+      "page": 9728
+    },
+    {
+      "name": "Vitamin D",
+      "page": 9733
+    },
+    {
+      "name": "Vitamin E",
+      "page": 9741
+    },
+    {
+      "name": "Vitamin K1",
+      "page": 9744
+    },
+    {
+      "name": "Von Willebrand Factor Recombinant",
+      "page": 9752
+    },
+    {
+      "name": "Vorasidenib",
+      "page": 9765
+    },
+    {
+      "name": "Voretigene Neparvovec-rzyl",
+      "page": 9771
+    },
+    {
+      "name": "Voriconazole",
+      "page": 9776
+    },
+    {
+      "name": "Vosoritide",
+      "page": 9808
+    },
+    {
+      "name": "Voxelotor",
+      "page": 9814
+    },
+    {
+      "name": "Warfarin",
+      "page": 9821
+    },
+    {
+      "name": "White Petrolatum",
+      "page": 9834
+    },
+    {
+      "name": "Xenon Xe 129 Hyperpolarized",
+      "page": 9836
+    },
+    {
+      "name": "Zafirlukast",
+      "page": 9841
+    },
+    {
+      "name": "Zanamivir",
+      "page": 9850
+    },
+    {
+      "name": "Zidovudine",
+      "page": 9856
+    },
+    {
+      "name": "Zileuton",
+      "page": 9884
+    },
+    {
+      "name": "Zinc Oxide",
+      "page": 9891
+    },
+    {
+      "name": "Ziprasidone",
+      "page": 9893
+    },
+    {
+      "name": "Zoledronic Acid",
+      "page": 9903
+    },
+    {
+      "name": "Zoliflodacin",
+      "page": 9913
+    },
+    {
+      "name": "ZOLMitriptan",
+      "page": 9918
+    },
+    {
+      "name": "Zonisamide",
+      "page": 9926
+    }
+  ]
+}
