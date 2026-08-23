@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#166b4b">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Medicamentos">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Consulta farmacológica</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Uso personal · Sin conexión</p>
+          <h1>Consulta farmacológica</h1>
+        </div>
+        <button id="change-pdf" class="quiet-button" type="button" hidden>Cambiar PDF</button>
+      </header>
+
+      <section id="setup-card" class="setup-card" aria-labelledby="setup-title">
+        <div class="icon-circle" aria-hidden="true">+</div>
+        <h2 id="setup-title">Importa tu guía una sola vez</h2>
+        <p>El PDF se guarda solamente en este teléfono. Después podrás buscar aunque no tengas internet.</p>
+        <label class="primary-button" for="pdf-input">Elegir mi PDF</label>
+        <input id="pdf-input" type="file" accept="application/pdf,.pdf" hidden>
+        <p id="setup-message" class="small-note" aria-live="polite">Usa el PDF de monografías pediátricas que cargaste.</p>
+      </section>
+
+      <section id="search-area" hidden>
+        <label class="search-label" for="search-input">Medicamento</label>
+        <div class="search-row">
+          <input id="search-input" type="search" inputmode="search" placeholder="Ej.: cefepime" autocomplete="off">
+          <button id="clear-search" class="quiet-button" type="button" aria-label="Borrar búsqueda">Limpiar</button>
+        </div>
+        <p id="document-name" class="document-note"></p>
+        <div id="search-status" class="search-status" aria-live="polite"></div>
+        <ul id="results" class="results" aria-label="Resultados de la búsqueda"></ul>
+      </section>
+
+      <section id="reader-area" hidden aria-live="polite">
+        <div class="reader-heading">
+          <div>
+            <p class="eyebrow">Fuente en tu PDF</p>
+            <h2 id="selected-name">Medicamento</h2>
+            <p id="selected-page" class="page-note"></p>
+          </div>
+          <a id="open-page" class="primary-button" target="_blank" rel="noopener">Abrir página</a>
+        </div>
+        <iframe id="pdf-viewer" title="Página del PDF seleccionada"></iframe>
+        <p class="small-note">La app muestra la página original para que confirmes siempre la dosis y el contexto clínico.</p>
+      </section>
+
+      <section class="privacy-note">
+        <h2>Privacidad y seguridad</h2>
+        <p>No busca ni consulta fuentes externas. Los resultados proceden del índice de este PDF y la dosis se revisa siempre en la página original.</p>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
