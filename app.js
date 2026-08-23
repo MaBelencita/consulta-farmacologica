@@ -251,15 +251,15 @@ async function renderPdfPage(pageNumber) {
     pdfLoading.hidden = true;
 
   } catch (error) {
-    console.error('Error mostrando página PDF:', error);
+  console.error('Error mostrando página PDF:', error);
 
-    pdfLoading.hidden = true;
+  pdfLoading.hidden = true;
 
-    pdfError.textContent =
-      'No se pudo mostrar esta página del PDF. El archivo sigue guardado en el teléfono.';
+  pdfError.textContent =
+    `ERROR PDF: ${error?.name || 'desconocido'} — ${error?.message || error}`;
 
-    pdfError.hidden = false;
-  }
+  pdfError.hidden = false;
+}
 }
 
 async function openMedication(item) {
